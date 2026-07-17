@@ -77,11 +77,15 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.foundation.border
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -209,6 +213,7 @@ fun MainAppScreen(viewModel: LearningViewModel) {
     }
 
     val onboardingCompleted by viewModel.onboardingCompleted.collectAsState()
+    val initialThemeCompleted by viewModel.initialThemeCompleted.collectAsState()
     val isSettingsLoaded by viewModel.isSettingsLoaded.collectAsState()
 
     // Force beautiful Persian RTL direction
@@ -312,8 +317,12 @@ fun MainAppScreen(viewModel: LearningViewModel) {
                 }
             }
 
-            if (isSettingsLoaded && !onboardingCompleted) {
-                OnboardingTutorialOverlay(viewModel = viewModel)
+            if (isSettingsLoaded) {
+                if (!onboardingCompleted) {
+                    OnboardingTutorialOverlay(viewModel = viewModel)
+                } else if (!initialThemeCompleted) {
+                    InitialThemeSelectionOverlay(viewModel = viewModel)
+                }
             }
         }
     }
@@ -366,44 +375,51 @@ fun HomeScreen(viewModel: LearningViewModel, activity: Activity?) {
     ) {
         // App Hero Banner Item
         item {
+            val bannerImageUrl by viewModel.bannerImageUrl.collectAsState()
+            val bannerAdUrl by viewModel.bannerAdUrl.collectAsState()
+            val context = LocalContext.current
+
+            val hasAdLink = !bannerAdUrl.isNullOrEmpty()
+            val clickModifier = if (hasAdLink) {
+                Modifier.clickable {
+                    try {
+                        val intent = Intent(Intent.ACTION_VIEW, android.net.Uri.parse(bannerAdUrl))
+                        context.startActivity(intent)
+                    } catch (e: Exception) {
+                        Toast.makeText(context, "خطا در باز کردن لینک", Toast.LENGTH_SHORT).show()
+                    }
+                }
+            } else {
+                Modifier
+            }
+
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(180.dp)
                     .clip(RoundedCornerShape(20.dp))
                     .background(Color.LightGray)
+                    .then(clickModifier)
             ) {
-                Image(
-                    painter = painterResource(id = R.drawable.img_hero_banner),
-                    contentDescription = "آموزش ۷۰۰ جمله ضروری انگلیسی",
-                    contentScale = ContentScale.Crop,
-                    modifier = Modifier.fillMaxSize()
-                )
-                Box(
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .background(
-                            Brush.verticalGradient(
-                                colors = listOf(Color.Transparent, Color.Black.copy(alpha = 0.7f))
-                            )
-                        )
-                )
-                Column(
-                    modifier = Modifier
-                        .align(Alignment.BottomStart)
-                        .padding(16.dp)
-                ) {
-                    Text(
-                        text = "آموزش ۷۰۰ جمله ضروری انگلیسی",
-                        color = Color.White,
-                        fontSize = 18.sp,
-                        fontWeight = FontWeight.Bold
+                if (!bannerImageUrl.isNullOrEmpty()) {
+                    val painter = coil.compose.rememberAsyncImagePainter(
+                        model = coil.request.ImageRequest.Builder(context)
+                            .data(bannerImageUrl)
+                            .crossfade(true)
+                            .build()
                     )
-                    Spacer(modifier = Modifier.height(4.dp))
-                    Text(
-                        text = "یادگیری سریع با متد علمی تکرار منقطع",
-                        color = Color.White.copy(alpha = 0.85f),
-                        fontSize = 12.sp
+                    Image(
+                        painter = painter,
+                        contentDescription = "آموزش ۷۰۰ جمله ضروری انگلیسی",
+                        contentScale = ContentScale.Crop,
+                        modifier = Modifier.fillMaxSize()
+                    )
+                } else {
+                    Image(
+                        painter = painterResource(id = R.drawable.img_hero_banner),
+                        contentDescription = "آموزش ۷۰۰ جمله ضروری انگلیسی",
+                        contentScale = ContentScale.Crop,
+                        modifier = Modifier.fillMaxSize()
                     )
                 }
             }
@@ -2791,6 +2807,7 @@ fun SettingsScreen(viewModel: LearningViewModel) {
                         Pair("emerald", Color(0xFF059669)),
                         Pair("ocean", Color(0xFF0284C7)),
                         Pair("rose", Color(0xFFDB2777)),
+                        Pair("pink", Color(0xFFEC4899)),
                         Pair("sunset", Color(0xFFD97706)),
                         Pair("amethyst", Color(0xFF7C3AED))
                     )
@@ -4027,6 +4044,160 @@ fun OnboardingTutorialOverlay(viewModel: LearningViewModel) {
                             fontWeight = FontWeight.Bold
                         )
                     }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+fun InitialThemeSelectionOverlay(viewModel: LearningViewModel) {
+    val selectedTheme by viewModel.selectedTheme.collectAsState()
+    val context = androidx.compose.ui.platform.LocalContext.current
+
+    // Automatically pre-select the beautiful girl-friendly "pink" theme on opening
+    LaunchedEffect(Unit) {
+        if (selectedTheme == "indigo") {
+            viewModel.updateThemePreset("pink")
+        }
+    }
+
+    Surface(
+        modifier = Modifier.fillMaxSize().testTag("theme_selection_overlay_surface"),
+        color = MaterialTheme.colorScheme.background.copy(alpha = 0.95f)
+    ) {
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(24.dp),
+            contentAlignment = Alignment.Center
+        ) {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .widthIn(max = 500.dp)
+                    .clip(RoundedCornerShape(28.dp))
+                    .background(MaterialTheme.colorScheme.surface)
+                    .padding(24.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Text(
+                    text = "شخصی‌سازی و انتخاب تم برنامه 🎨",
+                    style = MaterialTheme.typography.titleLarge,
+                    color = MaterialTheme.colorScheme.primary,
+                    fontWeight = FontWeight.Bold,
+                    textAlign = TextAlign.Center
+                )
+
+                Spacer(modifier = Modifier.height(12.dp))
+
+                Text(
+                    text = "پوسته نرم‌افزار را به سلیقه خود انتخاب کنید. تم صورتی ترکیب با سفید به عنوان گزینه پیش‌فرض و ویژه دخترخانم‌ها فعال شده است! با ضربه روی گزینه‌ها، تغییرات را به صورت زنده پشت کادر مشاهده کنید.",
+                    style = MaterialTheme.typography.bodyMedium,
+                    lineHeight = 22.sp,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    textAlign = TextAlign.Center
+                )
+
+                Spacer(modifier = Modifier.height(20.dp))
+
+                // Scrollable list of beautiful themes
+                val themeOptions = listOf(
+                    Triple("pink", "صورتی رؤیایی (سفید-صورتی) 🌸", Color(0xFFEC4899)),
+                    Triple("indigo", "نیلی سلطنتی (کلاسیک) 💙", Color(0xFF4F46E5)),
+                    Triple("emerald", "سبز زمردی (آرامش طبیعت) 💚", Color(0xFF059669)),
+                    Triple("ocean", "آبی اقیانوسی (عمق دریا) 🐳", Color(0xFF0284C7)),
+                    Triple("rose", "گلی رز (مدرن و پرانرژی) ❤️", Color(0xFFDB2777)),
+                    Triple("sunset", "طلایی غروب (گرم و درخشان) 💛", Color(0xFFD97706)),
+                    Triple("amethyst", "بنفش کریستالی (شیک و خاص) 💜", Color(0xFF7C3AED))
+                )
+
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .weight(1f, fill = false)
+                        .verticalScroll(rememberScrollState()),
+                    verticalArrangement = Arrangement.spacedBy(10.dp)
+                ) {
+                    themeOptions.forEach { (presetKey, displayName, color) ->
+                        val isSelected = selectedTheme == presetKey
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clip(RoundedCornerShape(16.dp))
+                                .background(
+                                    if (isSelected) color.copy(alpha = 0.12f)
+                                    else MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.4f)
+                                )
+                                .border(
+                                    width = if (isSelected) 2.dp else 1.dp,
+                                    color = if (isSelected) color else MaterialTheme.colorScheme.outlineVariant,
+                                    shape = RoundedCornerShape(16.dp)
+                                )
+                                .clickable {
+                                    viewModel.updateThemePreset(presetKey)
+                                }
+                                .padding(horizontal = 16.dp, vertical = 12.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.SpaceBetween
+                        ) {
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(12.dp)
+                            ) {
+                                // Color Indicator
+                                Box(
+                                    modifier = Modifier
+                                        .size(32.dp)
+                                        .clip(CircleShape)
+                                        .background(color)
+                                )
+                                
+                                Text(
+                                    text = displayName,
+                                    style = MaterialTheme.typography.bodyLarge,
+                                    fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Medium,
+                                    color = if (isSelected) color else MaterialTheme.colorScheme.onSurface
+                                )
+                            }
+
+                            if (isSelected) {
+                                Box(
+                                    modifier = Modifier
+                                        .size(22.dp)
+                                        .clip(CircleShape)
+                                        .background(color),
+                                    contentAlignment = Alignment.Center
+                                ) {
+                                    Icon(
+                                        imageVector = Icons.Default.Check,
+                                        contentDescription = "انتخاب شده",
+                                        tint = Color.White,
+                                        modifier = Modifier.size(14.dp)
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+
+                Spacer(modifier = Modifier.height(20.dp))
+
+                Button(
+                    onClick = {
+                        viewModel.updateInitialThemeCompleted(true)
+                    },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(52.dp)
+                        .testTag("save_initial_theme_button"),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Text(
+                        text = "ثبت و ورود به برنامه 🚀",
+                        style = MaterialTheme.typography.bodyLarge,
+                        fontWeight = FontWeight.Bold
+                    )
                 }
             }
         }

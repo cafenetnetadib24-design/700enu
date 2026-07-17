@@ -39,6 +39,7 @@ fun getCustomColorScheme(preset: String, isDark: Boolean): ColorScheme {
         "rose" -> if (isDark) Color(0xFFF472B6) else Color(0xFFDB2777)
         "sunset" -> if (isDark) Color(0xFFFBBF24) else Color(0xFFD97706)
         "amethyst" -> if (isDark) Color(0xFFA78BFA) else Color(0xFF7C3AED)
+        "pink" -> if (isDark) Color(0xFFF472B6) else Color(0xFFEC4899) // Girl-friendly beautiful pink
         else -> if (isDark) PrimaryDark else PrimaryLight // "indigo"
     }
     
@@ -48,7 +49,18 @@ fun getCustomColorScheme(preset: String, isDark: Boolean): ColorScheme {
         "rose" -> if (isDark) Color(0xFFFB7185) else Color(0xFFF43F5E)
         "sunset" -> if (isDark) Color(0xFFFDE047) else Color(0xFFF59E0B)
         "amethyst" -> if (isDark) Color(0xFFC4B5FD) else Color(0xFF8B5CF6)
+        "pink" -> if (isDark) Color(0xFFFBCFE8) else Color(0xFFF472B6) // Soft sweet pink
         else -> if (isDark) SecondaryDark else SecondaryLight // "indigo"
+    }
+
+    val background = when (preset) {
+        "pink" -> if (isDark) Color(0xFF1F1118) else Color(0xFFFFF5F7) // Pure, delightful white-pink canvas
+        else -> if (isDark) BackgroundDark else BackgroundLight
+    }
+
+    val surface = when (preset) {
+        "pink" -> if (isDark) Color(0xFF2D1B24) else Color(0xFFFFFFFF) // Crisp white cards on pink
+        else -> if (isDark) SurfaceDark else SurfaceLight
     }
 
     return if (isDark) {
@@ -56,20 +68,20 @@ fun getCustomColorScheme(preset: String, isDark: Boolean): ColorScheme {
             primary = primary,
             secondary = secondary,
             tertiary = TertiaryDark,
-            background = BackgroundDark,
-            surface = SurfaceDark,
-            onBackground = OnBackgroundDark,
-            onSurface = OnSurfaceDark
+            background = background,
+            surface = surface,
+            onBackground = if (preset == "pink") Color(0xFFFDF2F7) else OnBackgroundDark,
+            onSurface = if (preset == "pink") Color(0xFFFCE7F3) else OnSurfaceDark
         )
     } else {
         lightColorScheme(
             primary = primary,
             secondary = secondary,
             tertiary = TertiaryLight,
-            background = BackgroundLight,
-            surface = SurfaceLight,
-            onBackground = OnBackgroundLight,
-            onSurface = OnSurfaceLight
+            background = background,
+            surface = surface,
+            onBackground = if (preset == "pink") Color(0xFF4A0E2E) else OnBackgroundLight,
+            onSurface = if (preset == "pink") Color(0xFF5C1D3F) else OnSurfaceLight
         )
     }
 }

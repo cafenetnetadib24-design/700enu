@@ -193,9 +193,20 @@ class LearningViewModel(application: Application) : AndroidViewModel(application
     private val _onboardingCompleted = MutableStateFlow<Boolean>(false)
     val onboardingCompleted: StateFlow<Boolean> = _onboardingCompleted
 
+    // First launch theme selection completed state
+    private val _initialThemeCompleted = MutableStateFlow<Boolean>(false)
+    val initialThemeCompleted: StateFlow<Boolean> = _initialThemeCompleted
+
     // Settings loaded state to prevent UI flickers on startup
     private val _isSettingsLoaded = MutableStateFlow<Boolean>(false)
     val isSettingsLoaded: StateFlow<Boolean> = _isSettingsLoaded
+
+    // Dynamic banner ad state & image path
+    private val _bannerAdUrl = MutableStateFlow<String?>(null)
+    val bannerAdUrl: StateFlow<String?> = _bannerAdUrl
+
+    private val _bannerImageUrl = MutableStateFlow<String?>(null)
+    val bannerImageUrl: StateFlow<String?> = _bannerImageUrl
 
     init {
         val database = AppDatabase.getDatabase(application)
@@ -210,6 +221,7 @@ class LearningViewModel(application: Application) : AndroidViewModel(application
             _backgroundType.value = repository.getSetting("background_type") ?: "none"
             _customBackgroundUri.value = repository.getSetting("custom_background_uri") ?: ""
             _onboardingCompleted.value = repository.getSetting("onboarding_completed")?.toBooleanStrictOrNull() ?: false
+            _initialThemeCompleted.value = repository.getSetting("initial_theme_completed")?.toBooleanStrictOrNull() ?: false
 
             _quizAttemptsCount.value = repository.getSetting("quiz_attempts_count")?.toIntOrNull() ?: 0
             _quizSuccessCount.value = repository.getSetting("quiz_success_count")?.toIntOrNull() ?: 0
@@ -222,6 +234,9 @@ class LearningViewModel(application: Application) : AndroidViewModel(application
 
             updateScheduledReminder()
             _isSettingsLoaded.value = true
+            
+            // Check and update banner and ad link in the background (caching check every 3 days)
+            checkAndUpdateBanner()
         }
 
         allSentences = repository.allSentences.stateIn(
@@ -864,6 +879,13 @@ class LearningViewModel(application: Application) : AndroidViewModel(application
         }
     }
 
+    fun updateInitialThemeCompleted(completed: Boolean) {
+        viewModelScope.launch {
+            _initialThemeCompleted.value = completed
+            repository.saveSetting("initial_theme_completed", completed.toString())
+        }
+    }
+
     /**
      * Starts a comprehensive smart quiz up to the user's learned lessons,
      * ensuring that questions do not repeat across consecutive attempts (at least 10 attempts).
@@ -1110,6 +1132,100 @@ class LearningViewModel(application: Application) : AndroidViewModel(application
                 }
             }
         }
+    }
+
+    /**
+     * Checks and updates the hero banner image and redirect URL in the background.
+     * Caches them locally on the device (image to local files and link to SharedPreferences)
+     * and refreshes them every 3 days.
+     */
+    fun checkAndUpdateBanner() {
+        val context = getApplication<Application>()
+        val sharedPrefs = context.getSharedPreferences("app_banner_prefs", Context.MODE_PRIVATE)
+
+        // 1. Instantly load cached banner and link from local storage to keep app launch extremely fast
+        val cachedAdUrl = sharedPrefs.getString("cached_ad_url", null)
+        val bannerFile = java.io.File(context.filesDir, "cached_banner.png")
+
+        if (!cachedAdUrl.isNullOrEmpty()) {
+            _bannerAdUrl.value = cachedAdUrl
+        }
+        if (bannerFile.exists() && bannerFile.length() > 0) {
+            _bannerImageUrl.value = bannerFile.absolutePath
+        }
+
+        // 2. Perform a background check and download every 3 days
+        viewModelScope.launch(Dispatchers.IO) {
+            val lastFetchTime = sharedPrefs.getLong("last_fetch_time", 0L)
+            val currentTime = System.currentTimeMillis()
+            val threeDaysInMillis = 3 * 24 * 60 * 60 * 1000L // 3 days in milliseconds
+
+            if (currentTime - lastFetchTime >= threeDaysInMillis || cachedAdUrl.isNullOrEmpty() || !bannerFile.exists()) {
+                try {
+                    Log.d("BannerUpdate", "Checking for updated banner and ad URL in the background...")
+
+                    // Fetch the ad redirect URL
+                    val adsTextUrl = java.net.URL("https://raw.githubusercontent.com/cafenetnetadib24-design/english701/refs/heads/main/ads.txt")
+                    val connection = adsTextUrl.openConnection() as java.net.HttpURLConnection
+                    connection.connectTimeout = 15000
+                    connection.readTimeout = 15000
+                    connection.requestMethod = "GET"
+
+                    var newAdUrl: String? = null
+                    if (connection.responseCode == java.net.HttpURLConnection.HTTP_OK) {
+                        newAdUrl = connection.connectionInputStreamToString(connection)
+                    }
+                    connection.disconnect()
+
+                    // Only proceed with image update if we successfully read the ad URL (prevent partial/broken state)
+                    if (!newAdUrl.isNullOrEmpty()) {
+                        val imageUrl = java.net.URL("https://raw.githubusercontent.com/cafenetnetadib24-design/english701/refs/heads/main/15.png")
+                        val imgConnection = imageUrl.openConnection() as java.net.HttpURLConnection
+                        imgConnection.connectTimeout = 15000
+                        imgConnection.readTimeout = 15000
+                        imgConnection.requestMethod = "GET"
+
+                        if (imgConnection.responseCode == java.net.HttpURLConnection.HTTP_OK) {
+                            val tempFile = java.io.File(context.cacheDir, "temp_banner.png")
+                            imgConnection.inputStream.use { input ->
+                                tempFile.outputStream().use { output ->
+                                    input.copyTo(output)
+                                }
+                            }
+
+                            if (tempFile.exists() && tempFile.length() > 0) {
+                                // atomically replace banner file
+                                if (bannerFile.exists()) {
+                                    bannerFile.delete()
+                                }
+                                tempFile.renameTo(bannerFile)
+
+                                // Save update metadata
+                                sharedPrefs.edit().apply {
+                                    putString("cached_ad_url", newAdUrl)
+                                    putLong("last_fetch_time", currentTime)
+                                    apply()
+                                }
+
+                                // Update state flows
+                                _bannerAdUrl.value = newAdUrl
+                                _bannerImageUrl.value = bannerFile.absolutePath
+                                Log.d("BannerUpdate", "Banner and ad URL successfully updated in local storage and cache. URL: $newAdUrl")
+                            }
+                        }
+                        imgConnection.disconnect()
+                    }
+                } catch (e: Exception) {
+                    Log.e("BannerUpdate", "Error fetching/updating dynamic banner and ad URL: ", e)
+                }
+            } else {
+                Log.d("BannerUpdate", "Local banner cache is fresh. Skipping update check.")
+            }
+        }
+    }
+
+    private fun java.net.HttpURLConnection.connectionInputStreamToString(conn: java.net.HttpURLConnection): String {
+        return conn.inputStream.bufferedReader().use { it.readText() }.trim()
     }
 
     override fun onCleared() {
