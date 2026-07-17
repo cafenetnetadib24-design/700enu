@@ -1,0 +1,8 @@
+# Ensure line endings are consistent for text files
+* text=auto eol=lf
+
+# Force binary files to always be treated as binary (prevents corruption)
+*.jar binary
+*.jks binary
+*.png binary
+*.webp binary

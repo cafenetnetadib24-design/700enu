@@ -59,6 +59,19 @@ jobs:
           validate-wrappers: false
         # این اکشن رسمی گریدل است که کش فایل‌ها و متعلقات بیلد را مدیریت می‌کند تا سرعت بیلد بالا رود. بررسی صحت رپر به علت تفاوت در محیط بیلد غیرفعال شده است.
 
+      - name: Fix Corrupt Gradle Wrapper
+        run: |
+          if command -v gradle >/dev/null 2>&1; then
+            echo "Using pre-installed Gradle to regenerate wrapper..."
+            rm -f gradle/wrapper/gradle-wrapper.jar
+            gradle wrapper --gradle-version 9.3.1
+          else
+            echo "Gradle not found. Downloading wrapper JAR using curl..."
+            rm -f gradle/wrapper/gradle-wrapper.jar
+            curl -sSLo gradle/wrapper/gradle-wrapper.jar https://raw.githubusercontent.com/gradle/gradle/v9.3.1/gradle/wrapper/gradle-wrapper.jar
+          fi
+        # برطرف کردن خودکار خطای رپر گریدل خراب یا نامعتبر با بازسازی/دانلود مجدد آن در محیط رانر
+
       - name: Grant Execute Permission to Gradlew
         run: chmod +x gradlew
         # اعطای دسترسی اجرایی به اسکریپت گریدل
