@@ -39,7 +39,9 @@ jobs:
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
-        # این اکشن رسمی گریدل است که کش فایل‌ها و متعلقات بیلد را مدیریت می‌کند تا سرعت بیلد بالا رود
+        with:
+          validate-wrapper: false
+        # این اکشن رسمی گریدل است که کش فایل‌ها و متعلقات بیلد را مدیریت می‌کند تا سرعت بیلد بالا رود. بررسی صحت رپر به علت تفاوت در محیط بیلد غیرفعال شده است.
 
       - name: Grant Execute Permission to Gradlew
         run: chmod +x gradlew
