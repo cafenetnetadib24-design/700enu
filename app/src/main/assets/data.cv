@@ -1,0 +1,5147 @@
+[
+  {
+    "id": 1,
+    "sentence": "Hello!",
+    "translation": "سلام!",
+    "image": "theme_1",
+    "audio": "audio_1.mp3"
+  },
+  {
+    "id": 2,
+    "sentence": "How are you?",
+    "translation": "حال شما چطور است؟",
+    "image": "theme_1",
+    "audio": "audio_2.mp3"
+  },
+  {
+    "id": 3,
+    "sentence": "Good morning.",
+    "translation": "صبح بخیر.",
+    "image": "theme_1",
+    "audio": "audio_3.mp3"
+  },
+  {
+    "id": 4,
+    "sentence": "Good night.",
+    "translation": "شب بخیر.",
+    "image": "theme_1",
+    "audio": "audio_4.mp3"
+  },
+  {
+    "id": 5,
+    "sentence": "Thank you.",
+    "translation": "متشکرم.",
+    "image": "theme_1",
+    "audio": "audio_5.mp3"
+  },
+  {
+    "id": 6,
+    "sentence": "You're welcome.",
+    "translation": "خواهش می‌کنم.",
+    "image": "theme_1",
+    "audio": "audio_6.mp3"
+  },
+  {
+    "id": 7,
+    "sentence": "Please.",
+    "translation": "لطفا.",
+    "image": "theme_1",
+    "audio": "audio_7.mp3"
+  },
+  {
+    "id": 8,
+    "sentence": "Excuse me.",
+    "translation": "ببخشید.",
+    "image": "theme_1",
+    "audio": "audio_8.mp3"
+  },
+  {
+    "id": 9,
+    "sentence": "I'm sorry.",
+    "translation": "متاسفم.",
+    "image": "theme_1",
+    "audio": "audio_9.mp3"
+  },
+  {
+    "id": 10,
+    "sentence": "Yes, please.",
+    "translation": "بله، لطفا.",
+    "image": "theme_1",
+    "audio": "audio_10.mp3"
+  },
+  {
+    "id": 11,
+    "sentence": "No, thank you.",
+    "translation": "خیر، ممنونم.",
+    "image": "theme_1",
+    "audio": "audio_11.mp3"
+  },
+  {
+    "id": 12,
+    "sentence": "Nice to meet you.",
+    "translation": "از ملاقات با شما خوشبختم.",
+    "image": "theme_1",
+    "audio": "audio_12.mp3"
+  },
+  {
+    "id": 13,
+    "sentence": "How is it going?",
+    "translation": "اوضاع چطور است؟",
+    "image": "theme_1",
+    "audio": "audio_13.mp3"
+  },
+  {
+    "id": 14,
+    "sentence": "See you later.",
+    "translation": "بعدا می‌بینمت.",
+    "image": "theme_1",
+    "audio": "audio_14.mp3"
+  },
+  {
+    "id": 15,
+    "sentence": "Goodbye!",
+    "translation": "خداحافظ!",
+    "image": "theme_1",
+    "audio": "audio_15.mp3"
+  },
+  {
+    "id": 16,
+    "sentence": "Have a nice day!",
+    "translation": "روز خوبی داشته باشید!",
+    "image": "theme_1",
+    "audio": "audio_16.mp3"
+  },
+  {
+    "id": 17,
+    "sentence": "Long time no see.",
+    "translation": "خیلی وقته ندیدمت.",
+    "image": "theme_1",
+    "audio": "audio_17.mp3"
+  },
+  {
+    "id": 18,
+    "sentence": "Welcome!",
+    "translation": "خوش آمدید!",
+    "image": "theme_1",
+    "audio": "audio_18.mp3"
+  },
+  {
+    "id": 19,
+    "sentence": "Take care!",
+    "translation": "مراقب خودت باش!",
+    "image": "theme_1",
+    "audio": "audio_19.mp3"
+  },
+  {
+    "id": 20,
+    "sentence": "Good afternoon.",
+    "translation": "بعد از ظهر بخیر.",
+    "image": "theme_1",
+    "audio": "audio_20.mp3"
+  },
+  {
+    "id": 21,
+    "sentence": "Good evening.",
+    "translation": "عصر بخیر.",
+    "image": "theme_1",
+    "audio": "audio_21.mp3"
+  },
+  {
+    "id": 22,
+    "sentence": "How have you been?",
+    "translation": "این مدت چطور بودی؟",
+    "image": "theme_1",
+    "audio": "audio_22.mp3"
+  },
+  {
+    "id": 23,
+    "sentence": "I am fine, thank you.",
+    "translation": "من خوبم، متشکرم.",
+    "image": "theme_1",
+    "audio": "audio_23.mp3"
+  },
+  {
+    "id": 24,
+    "sentence": "Not bad, thanks.",
+    "translation": "بد نیستم، ممنون.",
+    "image": "theme_1",
+    "audio": "audio_24.mp3"
+  },
+  {
+    "id": 25,
+    "sentence": "Great, and you?",
+    "translation": "عالی، شما چطور؟",
+    "image": "theme_1",
+    "audio": "audio_25.mp3"
+  },
+  {
+    "id": 26,
+    "sentence": "Nice meeting you.",
+    "translation": "از دیدارتان خوشحال شدم.",
+    "image": "theme_1",
+    "audio": "audio_26.mp3"
+  },
+  {
+    "id": 27,
+    "sentence": "Talk to you soon.",
+    "translation": "به زودی باهات صحبت می‌کنم.",
+    "image": "theme_1",
+    "audio": "audio_27.mp3"
+  },
+  {
+    "id": 28,
+    "sentence": "Have a good one.",
+    "translation": "اوقات خوبی داشته باشی.",
+    "image": "theme_1",
+    "audio": "audio_28.mp3"
+  },
+  {
+    "id": 29,
+    "sentence": "I must go now.",
+    "translation": "الان باید بروم.",
+    "image": "theme_1",
+    "audio": "audio_29.mp3"
+  },
+  {
+    "id": 30,
+    "sentence": "Let's keep in touch.",
+    "translation": "بیا با هم در ارتباط باشیم.",
+    "image": "theme_1",
+    "audio": "audio_30.mp3"
+  },
+  {
+    "id": 31,
+    "sentence": "It's a pleasure to meet you.",
+    "translation": "از آشنایی با شما خوشبختم.",
+    "image": "theme_1",
+    "audio": "audio_31.mp3"
+  },
+  {
+    "id": 32,
+    "sentence": "How are things?",
+    "translation": "کار و بار چطوره؟",
+    "image": "theme_1",
+    "audio": "audio_32.mp3"
+  },
+  {
+    "id": 33,
+    "sentence": "Pretty good.",
+    "translation": "خیلی خوب.",
+    "image": "theme_1",
+    "audio": "audio_33.mp3"
+  },
+  {
+    "id": 34,
+    "sentence": "So far so good.",
+    "translation": "تا اینجا که همه چیز خوب بوده.",
+    "image": "theme_1",
+    "audio": "audio_34.mp3"
+  },
+  {
+    "id": 35,
+    "sentence": "Bye for now.",
+    "translation": "فعلا خداحافظ.",
+    "image": "theme_1",
+    "audio": "audio_35.mp3"
+  },
+  {
+    "id": 36,
+    "sentence": "What is your name?",
+    "translation": "نام شما چیست؟",
+    "image": "theme_2",
+    "audio": "audio_36.mp3"
+  },
+  {
+    "id": 37,
+    "sentence": "My name is John.",
+    "translation": "نام من جان است.",
+    "image": "theme_2",
+    "audio": "audio_37.mp3"
+  },
+  {
+    "id": 38,
+    "sentence": "Where are you from?",
+    "translation": "شما اهل کجا هستید؟",
+    "image": "theme_2",
+    "audio": "audio_38.mp3"
+  },
+  {
+    "id": 39,
+    "sentence": "I am from Iran.",
+    "translation": "من اهل ایران هستم.",
+    "image": "theme_2",
+    "audio": "audio_39.mp3"
+  },
+  {
+    "id": 40,
+    "sentence": "How old are you?",
+    "translation": "چند سالت است؟",
+    "image": "theme_2",
+    "audio": "audio_40.mp3"
+  },
+  {
+    "id": 41,
+    "sentence": "I am twenty years old.",
+    "translation": "من بیست سال سن دارم.",
+    "image": "theme_2",
+    "audio": "audio_41.mp3"
+  },
+  {
+    "id": 42,
+    "sentence": "Who is this?",
+    "translation": "این شخص کیست؟",
+    "image": "theme_2",
+    "audio": "audio_42.mp3"
+  },
+  {
+    "id": 43,
+    "sentence": "This is my friend.",
+    "translation": "این دوست من است.",
+    "image": "theme_2",
+    "audio": "audio_43.mp3"
+  },
+  {
+    "id": 44,
+    "sentence": "What do you do?",
+    "translation": "شغل شما چیست؟",
+    "image": "theme_2",
+    "audio": "audio_44.mp3"
+  },
+  {
+    "id": 45,
+    "sentence": "I am a software engineer.",
+    "translation": "من مهندس نرم‌افزار هستم.",
+    "image": "theme_2",
+    "audio": "audio_45.mp3"
+  },
+  {
+    "id": 46,
+    "sentence": "Where do you live?",
+    "translation": "کجا زندگی می‌کنید؟",
+    "image": "theme_2",
+    "audio": "audio_46.mp3"
+  },
+  {
+    "id": 47,
+    "sentence": "I live in Tehran.",
+    "translation": "من در تهران زندگی می‌کنم.",
+    "image": "theme_2",
+    "audio": "audio_47.mp3"
+  },
+  {
+    "id": 48,
+    "sentence": "I was born in Shiraz.",
+    "translation": "من در شیراز متولد شدم.",
+    "image": "theme_2",
+    "audio": "audio_48.mp3"
+  },
+  {
+    "id": 49,
+    "sentence": "Meet my colleague, Sarah.",
+    "translation": "با همکارم سارا آشنا شوید.",
+    "image": "theme_2",
+    "audio": "audio_49.mp3"
+  },
+  {
+    "id": 50,
+    "sentence": "I am single.",
+    "translation": "من مجرد هستم.",
+    "image": "theme_2",
+    "audio": "audio_50.mp3"
+  },
+  {
+    "id": 51,
+    "sentence": "I am married.",
+    "translation": "من متاهل هستم.",
+    "image": "theme_2",
+    "audio": "audio_51.mp3"
+  },
+  {
+    "id": 52,
+    "sentence": "Do you have any children?",
+    "translation": "آیا فرزندی دارید؟",
+    "image": "theme_2",
+    "audio": "audio_52.mp3"
+  },
+  {
+    "id": 53,
+    "sentence": "I have two kids.",
+    "translation": "من دو فرزند دارم.",
+    "image": "theme_2",
+    "audio": "audio_53.mp3"
+  },
+  {
+    "id": 54,
+    "sentence": "What is your occupation?",
+    "translation": "شغل شما چیست؟",
+    "image": "theme_2",
+    "audio": "audio_54.mp3"
+  },
+  {
+    "id": 55,
+    "sentence": "I am self-employed.",
+    "translation": "من شغل آزاد دارم.",
+    "image": "theme_2",
+    "audio": "audio_55.mp3"
+  },
+  {
+    "id": 56,
+    "sentence": "I work from home.",
+    "translation": "من دورکاری می‌کنم.",
+    "image": "theme_2",
+    "audio": "audio_56.mp3"
+  },
+  {
+    "id": 57,
+    "sentence": "Are you a student?",
+    "translation": "آیا شما دانشجو هستید؟",
+    "image": "theme_2",
+    "audio": "audio_57.mp3"
+  },
+  {
+    "id": 58,
+    "sentence": "I study computer science.",
+    "translation": "من علوم کامپیوتر می‌خوانم.",
+    "image": "theme_2",
+    "audio": "audio_58.mp3"
+  },
+  {
+    "id": 59,
+    "sentence": "This is my husband.",
+    "translation": "این همسر من است (شوهر).",
+    "image": "theme_2",
+    "audio": "audio_59.mp3"
+  },
+  {
+    "id": 60,
+    "sentence": "This is my wife.",
+    "translation": "این همسر من است (زن).",
+    "image": "theme_2",
+    "audio": "audio_60.mp3"
+  },
+  {
+    "id": 61,
+    "sentence": "He is my brother.",
+    "translation": "او برادر من است.",
+    "image": "theme_2",
+    "audio": "audio_61.mp3"
+  },
+  {
+    "id": 62,
+    "sentence": "She is my sister.",
+    "translation": "او خواهر من است.",
+    "image": "theme_2",
+    "audio": "audio_62.mp3"
+  },
+  {
+    "id": 63,
+    "sentence": "Nice to meet you all.",
+    "translation": "از ملاقات با همگی شما خوشبختم.",
+    "image": "theme_2",
+    "audio": "audio_63.mp3"
+  },
+  {
+    "id": 64,
+    "sentence": "Where do you study?",
+    "translation": "کجا تحصیل می‌کنید؟",
+    "image": "theme_2",
+    "audio": "audio_64.mp3"
+  },
+  {
+    "id": 65,
+    "sentence": "I graduated last year.",
+    "translation": "من سال گذشته فارغ‌التحصیل شدم.",
+    "image": "theme_2",
+    "audio": "audio_65.mp3"
+  },
+  {
+    "id": 66,
+    "sentence": "I am looking for a job.",
+    "translation": "من به دنبال کار هستم.",
+    "image": "theme_2",
+    "audio": "audio_66.mp3"
+  },
+  {
+    "id": 67,
+    "sentence": "My hobbies are reading and swimming.",
+    "translation": "سرگرمی‌های من مطالعه و شنا است.",
+    "image": "theme_2",
+    "audio": "audio_67.mp3"
+  },
+  {
+    "id": 68,
+    "sentence": "I like music.",
+    "translation": "من موسیقی دوست دارم.",
+    "image": "theme_2",
+    "audio": "audio_68.mp3"
+  },
+  {
+    "id": 69,
+    "sentence": "This is my business card.",
+    "translation": "این کارت ویزیت من است.",
+    "image": "theme_2",
+    "audio": "audio_69.mp3"
+  },
+  {
+    "id": 70,
+    "sentence": "Let me introduce myself.",
+    "translation": "اجازه دهید خودم را معرفی کنم.",
+    "image": "theme_2",
+    "audio": "audio_70.mp3"
+  },
+  {
+    "id": 71,
+    "sentence": "How is your family?",
+    "translation": "خانواده‌ات چطور هستند؟",
+    "image": "theme_3",
+    "audio": "audio_71.mp3"
+  },
+  {
+    "id": 72,
+    "sentence": "My family is very well.",
+    "translation": "خانواده‌ام خیلی خوب هستند.",
+    "image": "theme_3",
+    "audio": "audio_72.mp3"
+  },
+  {
+    "id": 73,
+    "sentence": "Do you have siblings?",
+    "translation": "آیا خواهر و برادر داری؟",
+    "image": "theme_3",
+    "audio": "audio_73.mp3"
+  },
+  {
+    "id": 74,
+    "sentence": "I have one brother.",
+    "translation": "من یک برادر دارم.",
+    "image": "theme_3",
+    "audio": "audio_74.mp3"
+  },
+  {
+    "id": 75,
+    "sentence": "My sister lives abroad.",
+    "translation": "خواهرم در خارج از کشور زندگی می‌کند.",
+    "image": "theme_3",
+    "audio": "audio_75.mp3"
+  },
+  {
+    "id": 76,
+    "sentence": "Who is your father?",
+    "translation": "پدر شما کیست؟",
+    "image": "theme_3",
+    "audio": "audio_76.mp3"
+  },
+  {
+    "id": 77,
+    "sentence": "My father is a teacher.",
+    "translation": "پدر من معلم است.",
+    "image": "theme_3",
+    "audio": "audio_77.mp3"
+  },
+  {
+    "id": 78,
+    "sentence": "My mother is a nurse.",
+    "translation": "مادر من پرستار است.",
+    "image": "theme_3",
+    "audio": "audio_78.mp3"
+  },
+  {
+    "id": 79,
+    "sentence": "Are your parents retired?",
+    "translation": "آیا والدین شما بازنشسته شده‌اند؟",
+    "image": "theme_3",
+    "audio": "audio_79.mp3"
+  },
+  {
+    "id": 80,
+    "sentence": "They live in Shiraz.",
+    "translation": "آن‌ها در شیراز زندگی می‌کنند.",
+    "image": "theme_3",
+    "audio": "audio_80.mp3"
+  },
+  {
+    "id": 81,
+    "sentence": "I love my family.",
+    "translation": "من خانواده‌ام را دوست دارم.",
+    "image": "theme_3",
+    "audio": "audio_81.mp3"
+  },
+  {
+    "id": 82,
+    "sentence": "This is my grandfather.",
+    "translation": "این پدربزرگ من است.",
+    "image": "theme_3",
+    "audio": "audio_82.mp3"
+  },
+  {
+    "id": 83,
+    "sentence": "My grandmother is very kind.",
+    "translation": "مادربزرگ من بسیار مهربان است.",
+    "image": "theme_3",
+    "audio": "audio_83.mp3"
+  },
+  {
+    "id": 84,
+    "sentence": "Do you have an uncle?",
+    "translation": "آیا عمو یا دایی داری؟",
+    "image": "theme_3",
+    "audio": "audio_84.mp3"
+  },
+  {
+    "id": 85,
+    "sentence": "My aunt is a doctor.",
+    "translation": "عمه (یا خاله) من پزشک است.",
+    "image": "theme_3",
+    "audio": "audio_85.mp3"
+  },
+  {
+    "id": 86,
+    "sentence": "My cousin is coming today.",
+    "translation": "پسرعمویم (یا دخترعمویم) امروز می‌آید.",
+    "image": "theme_3",
+    "audio": "audio_86.mp3"
+  },
+  {
+    "id": 87,
+    "sentence": "We are a close family.",
+    "translation": "ما خانواده صمیمی‌ای هستیم.",
+    "image": "theme_3",
+    "audio": "audio_87.mp3"
+  },
+  {
+    "id": 88,
+    "sentence": "He is my nephew.",
+    "translation": "او برادرزاده (یا خواهرزاده) من است.",
+    "image": "theme_3",
+    "audio": "audio_88.mp3"
+  },
+  {
+    "id": 89,
+    "sentence": "She is my niece.",
+    "translation": "او دختربرادر (یا دخترخواهر) من است.",
+    "image": "theme_3",
+    "audio": "audio_89.mp3"
+  },
+  {
+    "id": 90,
+    "sentence": "My brother-in-law is nice.",
+    "translation": "باجناق (یا داماد/برادر زن) من آدم خوبی است.",
+    "image": "theme_3",
+    "audio": "audio_90.mp3"
+  },
+  {
+    "id": 91,
+    "sentence": "My sister-in-law is helpful.",
+    "translation": "جاری (یا عروس/خواهر زن) من کمک‌کار است.",
+    "image": "theme_3",
+    "audio": "audio_91.mp3"
+  },
+  {
+    "id": 92,
+    "sentence": "We visit our relatives often.",
+    "translation": "ما اغلب به اقواممان سر می‌زنیم.",
+    "image": "theme_3",
+    "audio": "audio_92.mp3"
+  },
+  {
+    "id": 93,
+    "sentence": "We are having a family reunion.",
+    "translation": "ما یک دورهمی خانوادگی داریم.",
+    "image": "theme_3",
+    "audio": "audio_93.mp3"
+  },
+  {
+    "id": 94,
+    "sentence": "My parents love me.",
+    "translation": "والدینم مرا دوست دارند.",
+    "image": "theme_3",
+    "audio": "audio_94.mp3"
+  },
+  {
+    "id": 95,
+    "sentence": "Do you live with your parents?",
+    "translation": "آیا با والدین خود زندگی می‌کنید؟",
+    "image": "theme_3",
+    "audio": "audio_95.mp3"
+  },
+  {
+    "id": 96,
+    "sentence": "I live alone now.",
+    "translation": "من الان تنها زندگی می‌کنم.",
+    "image": "theme_3",
+    "audio": "audio_96.mp3"
+  },
+  {
+    "id": 97,
+    "sentence": "My son is five years old.",
+    "translation": "پسرم پنج سال دارد.",
+    "image": "theme_3",
+    "audio": "audio_97.mp3"
+  },
+  {
+    "id": 98,
+    "sentence": "My daughter loves drawing.",
+    "translation": "دخترم نقاشی کشیدن را دوست دارد.",
+    "image": "theme_3",
+    "audio": "audio_98.mp3"
+  },
+  {
+    "id": 99,
+    "sentence": "Who is the oldest?",
+    "translation": "بزرگ‌ترین فرد کیست؟",
+    "image": "theme_3",
+    "audio": "audio_99.mp3"
+  },
+  {
+    "id": 100,
+    "sentence": "My older brother is tall.",
+    "translation": "برادر بزرگترم قدبلند است.",
+    "image": "theme_3",
+    "audio": "audio_100.mp3"
+  },
+  {
+    "id": 101,
+    "sentence": "My younger sister is cute.",
+    "translation": "خواهر کوچکترم بامزه است.",
+    "image": "theme_3",
+    "audio": "audio_101.mp3"
+  },
+  {
+    "id": 102,
+    "sentence": "Family is very important.",
+    "translation": "خانواده بسیار مهم است.",
+    "image": "theme_3",
+    "audio": "audio_102.mp3"
+  },
+  {
+    "id": 103,
+    "sentence": "He is my stepfather.",
+    "translation": "او ناپدری من است.",
+    "image": "theme_3",
+    "audio": "audio_103.mp3"
+  },
+  {
+    "id": 104,
+    "sentence": "She is my stepmother.",
+    "translation": "او نامادری من است.",
+    "image": "theme_3",
+    "audio": "audio_104.mp3"
+  },
+  {
+    "id": 105,
+    "sentence": "We support each other.",
+    "translation": "ما از همدیگر حمایت می‌کنیم.",
+    "image": "theme_3",
+    "audio": "audio_105.mp3"
+  },
+  {
+    "id": 106,
+    "sentence": "What time is it?",
+    "translation": "ساعت چند است؟",
+    "image": "theme_4",
+    "audio": "audio_106.mp3"
+  },
+  {
+    "id": 107,
+    "sentence": "It is ten o'clock.",
+    "translation": "ساعت ده است.",
+    "image": "theme_4",
+    "audio": "audio_107.mp3"
+  },
+  {
+    "id": 108,
+    "sentence": "What is today's date?",
+    "translation": "تاریخ امروز چیست؟",
+    "image": "theme_4",
+    "audio": "audio_108.mp3"
+  },
+  {
+    "id": 109,
+    "sentence": "Today is Monday.",
+    "translation": "امروز دوشنبه است.",
+    "image": "theme_4",
+    "audio": "audio_109.mp3"
+  },
+  {
+    "id": 110,
+    "sentence": "What month is it?",
+    "translation": "الان چه ماهی است؟",
+    "image": "theme_4",
+    "audio": "audio_110.mp3"
+  },
+  {
+    "id": 111,
+    "sentence": "It is July.",
+    "translation": "الان ماه جولای است.",
+    "image": "theme_4",
+    "audio": "audio_111.mp3"
+  },
+  {
+    "id": 112,
+    "sentence": "I will meet you at noon.",
+    "translation": "من ظهر با شما ملاقات خواهم کرد.",
+    "image": "theme_4",
+    "audio": "audio_112.mp3"
+  },
+  {
+    "id": 113,
+    "sentence": "The meeting is at three PM.",
+    "translation": "جلسه ساعت سه بعد از ظهر است.",
+    "image": "theme_4",
+    "audio": "audio_113.mp3"
+  },
+  {
+    "id": 114,
+    "sentence": "It's too early.",
+    "translation": "خیلی زود است.",
+    "image": "theme_4",
+    "audio": "audio_114.mp3"
+  },
+  {
+    "id": 115,
+    "sentence": "It's getting late.",
+    "translation": "داره دیر می‌شه.",
+    "image": "theme_4",
+    "audio": "audio_115.mp3"
+  },
+  {
+    "id": 116,
+    "sentence": "I have no time today.",
+    "translation": "من امروز وقت ندارم.",
+    "image": "theme_4",
+    "audio": "audio_116.mp3"
+  },
+  {
+    "id": 117,
+    "sentence": "Let's meet tomorrow.",
+    "translation": "بیا فردا همدیگر را ببینیم.",
+    "image": "theme_4",
+    "audio": "audio_117.mp3"
+  },
+  {
+    "id": 118,
+    "sentence": "What day is tomorrow?",
+    "translation": "فردا چه روزی است؟",
+    "image": "theme_4",
+    "audio": "audio_118.mp3"
+  },
+  {
+    "id": 119,
+    "sentence": "Yesterday was Sunday.",
+    "translation": "دیروز یکشنبه بود.",
+    "image": "theme_4",
+    "audio": "audio_119.mp3"
+  },
+  {
+    "id": 120,
+    "sentence": "Next week is busy.",
+    "translation": "هفته آینده شلوغ است.",
+    "image": "theme_4",
+    "audio": "audio_120.mp3"
+  },
+  {
+    "id": 121,
+    "sentence": "The weekend is coming.",
+    "translation": "آخر هفته در راه است.",
+    "image": "theme_4",
+    "audio": "audio_121.mp3"
+  },
+  {
+    "id": 122,
+    "sentence": "I am on time.",
+    "translation": "من به موقع رسیدم.",
+    "image": "theme_4",
+    "audio": "audio_122.mp3"
+  },
+  {
+    "id": 123,
+    "sentence": "Don't be late.",
+    "translation": "دیر نکنید.",
+    "image": "theme_4",
+    "audio": "audio_123.mp3"
+  },
+  {
+    "id": 124,
+    "sentence": "What is your birthday?",
+    "translation": "تاریخ تولد شما چه زمانی است؟",
+    "image": "theme_4",
+    "audio": "audio_124.mp3"
+  },
+  {
+    "id": 125,
+    "sentence": "My birthday is in May.",
+    "translation": "تولد من در ماه می است.",
+    "image": "theme_4",
+    "audio": "audio_125.mp3"
+  },
+  {
+    "id": 126,
+    "sentence": "We need to hurry.",
+    "translation": "باید عجله کنیم.",
+    "image": "theme_4",
+    "audio": "audio_126.mp3"
+  },
+  {
+    "id": 127,
+    "sentence": "Take your time.",
+    "translation": "عجله نکنید (وقت دارید).",
+    "image": "theme_4",
+    "audio": "audio_127.mp3"
+  },
+  {
+    "id": 128,
+    "sentence": "It takes one hour.",
+    "translation": "یک ساعت طول می‌کشد.",
+    "image": "theme_4",
+    "audio": "audio_128.mp3"
+  },
+  {
+    "id": 129,
+    "sentence": "See you next month.",
+    "translation": "ماه آینده می‌بینمت.",
+    "image": "theme_4",
+    "audio": "audio_129.mp3"
+  },
+  {
+    "id": 130,
+    "sentence": "Last night was fun.",
+    "translation": "دیشب خوش گذشت.",
+    "image": "theme_4",
+    "audio": "audio_130.mp3"
+  },
+  {
+    "id": 131,
+    "sentence": "I'm early today.",
+    "translation": "امروز زود آمدم.",
+    "image": "theme_4",
+    "audio": "audio_131.mp3"
+  },
+  {
+    "id": 132,
+    "sentence": "What year is it?",
+    "translation": "امسال چه سالی است؟",
+    "image": "theme_4",
+    "audio": "audio_132.mp3"
+  },
+  {
+    "id": 133,
+    "sentence": "The concert is tonight.",
+    "translation": "کنسرت امشب است.",
+    "image": "theme_4",
+    "audio": "audio_133.mp3"
+  },
+  {
+    "id": 134,
+    "sentence": "I do this every day.",
+    "translation": "من هر روز این کار را انجام می‌دهم.",
+    "image": "theme_4",
+    "audio": "audio_134.mp3"
+  },
+  {
+    "id": 135,
+    "sentence": "It's almost midnight.",
+    "translation": "تقریباً نیمه‌شب است.",
+    "image": "theme_4",
+    "audio": "audio_135.mp3"
+  },
+  {
+    "id": 136,
+    "sentence": "Time flies so fast.",
+    "translation": "زمان خیلی سریع می‌گذرد.",
+    "image": "theme_4",
+    "audio": "audio_136.mp3"
+  },
+  {
+    "id": 137,
+    "sentence": "Can we reschedule?",
+    "translation": "می‌توانیم زمان را تغییر دهیم؟",
+    "image": "theme_4",
+    "audio": "audio_137.mp3"
+  },
+  {
+    "id": 138,
+    "sentence": "I'll be there in ten minutes.",
+    "translation": "تا ده دقیقه دیگر آنجا خواهم بود.",
+    "image": "theme_4",
+    "audio": "audio_138.mp3"
+  },
+  {
+    "id": 139,
+    "sentence": "Just a moment, please.",
+    "translation": "فقط یک لحظه، لطفا.",
+    "image": "theme_4",
+    "audio": "audio_139.mp3"
+  },
+  {
+    "id": 140,
+    "sentence": "It is half past two.",
+    "translation": "ساعت دو و نیم است.",
+    "image": "theme_4",
+    "audio": "audio_140.mp3"
+  },
+  {
+    "id": 141,
+    "sentence": "What is the weather like today?",
+    "translation": "امروز هوا چطور است؟",
+    "image": "theme_5",
+    "audio": "audio_141.mp3"
+  },
+  {
+    "id": 142,
+    "sentence": "It is sunny today.",
+    "translation": "امروز آفتابی است.",
+    "image": "theme_5",
+    "audio": "audio_142.mp3"
+  },
+  {
+    "id": 143,
+    "sentence": "It is raining outside.",
+    "translation": "بیرون باران می‌بارد.",
+    "image": "theme_5",
+    "audio": "audio_143.mp3"
+  },
+  {
+    "id": 144,
+    "sentence": "I feel cold.",
+    "translation": "احساس سرما می‌کنم.",
+    "image": "theme_5",
+    "audio": "audio_144.mp3"
+  },
+  {
+    "id": 145,
+    "sentence": "I feel warm.",
+    "translation": "احساس گرما می‌کنم.",
+    "image": "theme_5",
+    "audio": "audio_145.mp3"
+  },
+  {
+    "id": 146,
+    "sentence": "It is hot today.",
+    "translation": "امروز هوا گرم است.",
+    "image": "theme_5",
+    "audio": "audio_146.mp3"
+  },
+  {
+    "id": 147,
+    "sentence": "It is freezing today.",
+    "translation": "امروز هوا بسیار سرد (یخبندان) است.",
+    "image": "theme_5",
+    "audio": "audio_147.mp3"
+  },
+  {
+    "id": 148,
+    "sentence": "It is very windy.",
+    "translation": "باد خیلی شدیدی می‌وزد.",
+    "image": "theme_5",
+    "audio": "audio_148.mp3"
+  },
+  {
+    "id": 149,
+    "sentence": "It is cloudy.",
+    "translation": "هوا ابری است.",
+    "image": "theme_5",
+    "audio": "audio_149.mp3"
+  },
+  {
+    "id": 150,
+    "sentence": "Is it going to snow?",
+    "translation": "آیا قرار است برف ببارد؟",
+    "image": "theme_5",
+    "audio": "audio_150.mp3"
+  },
+  {
+    "id": 151,
+    "sentence": "I love the autumn season.",
+    "translation": "من فصل پاییز را دوست دارم.",
+    "image": "theme_5",
+    "audio": "audio_151.mp3"
+  },
+  {
+    "id": 152,
+    "sentence": "Spring is beautiful.",
+    "translation": "بهار زیباست.",
+    "image": "theme_5",
+    "audio": "audio_152.mp3"
+  },
+  {
+    "id": 153,
+    "sentence": "Summer is too hot.",
+    "translation": "تابستان خیلی گرم است.",
+    "image": "theme_5",
+    "audio": "audio_153.mp3"
+  },
+  {
+    "id": 154,
+    "sentence": "Winter is very cold.",
+    "translation": "زمستان خیلی سرد است.",
+    "image": "theme_5",
+    "audio": "audio_154.mp3"
+  },
+  {
+    "id": 155,
+    "sentence": "The sky is clear.",
+    "translation": "آسمان صاف است.",
+    "image": "theme_5",
+    "audio": "audio_155.mp3"
+  },
+  {
+    "id": 156,
+    "sentence": "It is humid today.",
+    "translation": "امروز هوا شرجی است.",
+    "image": "theme_5",
+    "audio": "audio_156.mp3"
+  },
+  {
+    "id": 157,
+    "sentence": "There is heavy fog.",
+    "translation": "مه غلیظی وجود دارد.",
+    "image": "theme_5",
+    "audio": "audio_157.mp3"
+  },
+  {
+    "id": 158,
+    "sentence": "We had a big storm.",
+    "translation": "طوفان بزرگی داشتیم.",
+    "image": "theme_5",
+    "audio": "audio_158.mp3"
+  },
+  {
+    "id": 159,
+    "sentence": "The sun is rising.",
+    "translation": "خورشید در حال طلوع است.",
+    "image": "theme_5",
+    "audio": "audio_159.mp3"
+  },
+  {
+    "id": 160,
+    "sentence": "The sunset was beautiful.",
+    "translation": "غروب آفتاب زیبا بود.",
+    "image": "theme_5",
+    "audio": "audio_160.mp3"
+  },
+  {
+    "id": 161,
+    "sentence": "It's a lovely day.",
+    "translation": "روز دوست‌داشتنی‌ای است.",
+    "image": "theme_5",
+    "audio": "audio_161.mp3"
+  },
+  {
+    "id": 162,
+    "sentence": "I need an umbrella.",
+    "translation": "به یک چتر نیاز دارم.",
+    "image": "theme_5",
+    "audio": "audio_162.mp3"
+  },
+  {
+    "id": 163,
+    "sentence": "Wear a warm coat.",
+    "translation": "یک کت گرم بپوشید.",
+    "image": "theme_5",
+    "audio": "audio_163.mp3"
+  },
+  {
+    "id": 164,
+    "sentence": "The weather is perfect.",
+    "translation": "هوا عالی است.",
+    "image": "theme_5",
+    "audio": "audio_164.mp3"
+  },
+  {
+    "id": 165,
+    "sentence": "It's drizzling.",
+    "translation": "باران نم‌نم می‌بارد.",
+    "image": "theme_5",
+    "audio": "audio_165.mp3"
+  },
+  {
+    "id": 166,
+    "sentence": "The temperature is rising.",
+    "translation": "دما در حال افزایش است.",
+    "image": "theme_5",
+    "audio": "audio_166.mp3"
+  },
+  {
+    "id": 167,
+    "sentence": "It is dry here.",
+    "translation": "اینجا هوا خشک است.",
+    "image": "theme_5",
+    "audio": "audio_167.mp3"
+  },
+  {
+    "id": 168,
+    "sentence": "The flowers are blooming.",
+    "translation": "گل‌ها در حال شکوفایی هستند.",
+    "image": "theme_5",
+    "audio": "audio_168.mp3"
+  },
+  {
+    "id": 169,
+    "sentence": "The leaves are falling.",
+    "translation": "برگ‌ها در حال ریزش هستند.",
+    "image": "theme_5",
+    "audio": "audio_169.mp3"
+  },
+  {
+    "id": 170,
+    "sentence": "It is a windy night.",
+    "translation": "امشب باد می‌وزد.",
+    "image": "theme_5",
+    "audio": "audio_170.mp3"
+  },
+  {
+    "id": 171,
+    "sentence": "I hate rainy days.",
+    "translation": "من از روزهای بارانی متنفرم.",
+    "image": "theme_5",
+    "audio": "audio_171.mp3"
+  },
+  {
+    "id": 172,
+    "sentence": "Let's enjoy the sun.",
+    "translation": "بیا از آفتاب لذت ببریم.",
+    "image": "theme_5",
+    "audio": "audio_172.mp3"
+  },
+  {
+    "id": 173,
+    "sentence": "The storm is over.",
+    "translation": "طوفان تمام شده است.",
+    "image": "theme_5",
+    "audio": "audio_173.mp3"
+  },
+  {
+    "id": 174,
+    "sentence": "It is cool tonight.",
+    "translation": "امشب هوا خنک است.",
+    "image": "theme_5",
+    "audio": "audio_174.mp3"
+  },
+  {
+    "id": 175,
+    "sentence": "I like snowy weather.",
+    "translation": "من هوای برفی را دوست دارم.",
+    "image": "theme_5",
+    "audio": "audio_175.mp3"
+  },
+  {
+    "id": 176,
+    "sentence": "Where is the kitchen?",
+    "translation": "آشپزخانه کجاست؟",
+    "image": "theme_6",
+    "audio": "audio_176.mp3"
+  },
+  {
+    "id": 177,
+    "sentence": "The living room is big.",
+    "translation": "اتاق نشیمن بزرگ است.",
+    "image": "theme_6",
+    "audio": "audio_177.mp3"
+  },
+  {
+    "id": 178,
+    "sentence": "Where is my bedroom?",
+    "translation": "اتاق خواب من کجاست؟",
+    "image": "theme_6",
+    "audio": "audio_178.mp3"
+  },
+  {
+    "id": 179,
+    "sentence": "The bathroom is clean.",
+    "translation": "حمام تمیز است.",
+    "image": "theme_6",
+    "audio": "audio_179.mp3"
+  },
+  {
+    "id": 180,
+    "sentence": "I live in an apartment.",
+    "translation": "من در یک آپارتمان زندگی می‌کنم.",
+    "image": "theme_6",
+    "audio": "audio_180.mp3"
+  },
+  {
+    "id": 181,
+    "sentence": "Our house has a garden.",
+    "translation": "خانه ما باغچه دارد.",
+    "image": "theme_6",
+    "audio": "audio_181.mp3"
+  },
+  {
+    "id": 182,
+    "sentence": "Open the window, please.",
+    "translation": "لطفا پنجره را باز کنید.",
+    "image": "theme_6",
+    "audio": "audio_182.mp3"
+  },
+  {
+    "id": 183,
+    "sentence": "Close the door, please.",
+    "translation": "لطفا در را ببندید.",
+    "image": "theme_6",
+    "audio": "audio_183.mp3"
+  },
+  {
+    "id": 184,
+    "sentence": "Turn on the light.",
+    "translation": "لامپ را روشن کنید.",
+    "image": "theme_6",
+    "audio": "audio_184.mp3"
+  },
+  {
+    "id": 185,
+    "sentence": "Turn off the light.",
+    "translation": "لامپ را خاموش کنید.",
+    "image": "theme_6",
+    "audio": "audio_185.mp3"
+  },
+  {
+    "id": 186,
+    "sentence": "Where is the key?",
+    "translation": "کلید کجاست؟",
+    "image": "theme_6",
+    "audio": "audio_186.mp3"
+  },
+  {
+    "id": 187,
+    "sentence": "I am cleaning my room.",
+    "translation": "دارم اتاقم را تمیز می‌کنم.",
+    "image": "theme_6",
+    "audio": "audio_187.mp3"
+  },
+  {
+    "id": 188,
+    "sentence": "Lock the door, please.",
+    "translation": "لطفا در را قفل کنید.",
+    "image": "theme_6",
+    "audio": "audio_188.mp3"
+  },
+  {
+    "id": 189,
+    "sentence": "We have a comfortable sofa.",
+    "translation": "ما یک مبل راحت داریم.",
+    "image": "theme_6",
+    "audio": "audio_189.mp3"
+  },
+  {
+    "id": 190,
+    "sentence": "The TV is in the room.",
+    "translation": "تلویزیون در اتاق است.",
+    "image": "theme_6",
+    "audio": "audio_190.mp3"
+  },
+  {
+    "id": 191,
+    "sentence": "My bed is very soft.",
+    "translation": "تخت من بسیار نرم است.",
+    "image": "theme_6",
+    "audio": "audio_191.mp3"
+  },
+  {
+    "id": 192,
+    "sentence": "Where is the dining table?",
+    "translation": "میز غذاخوری کجاست؟",
+    "image": "theme_6",
+    "audio": "audio_192.mp3"
+  },
+  {
+    "id": 193,
+    "sentence": "The fridge is full.",
+    "translation": "یخچال پر است.",
+    "image": "theme_6",
+    "audio": "audio_193.mp3"
+  },
+  {
+    "id": 194,
+    "sentence": "I need to wash the dishes.",
+    "translation": "باید ظرف‌ها را بشویم.",
+    "image": "theme_6",
+    "audio": "audio_194.mp3"
+  },
+  {
+    "id": 195,
+    "sentence": "The balcony has a great view.",
+    "translation": "بالکن نمای فوق‌العاده‌ای دارد.",
+    "image": "theme_6",
+    "audio": "audio_195.mp3"
+  },
+  {
+    "id": 196,
+    "sentence": "I am moving to a new home.",
+    "translation": "دارم به یک خانه جدید نقل مکان می‌کنم.",
+    "image": "theme_6",
+    "audio": "audio_196.mp3"
+  },
+  {
+    "id": 197,
+    "sentence": "How much is the rent?",
+    "translation": "اجاره‌بها چقدر است؟",
+    "image": "theme_6",
+    "audio": "audio_197.mp3"
+  },
+  {
+    "id": 198,
+    "sentence": "We have friendly neighbors.",
+    "translation": "ما همسایگان مهربانی داریم.",
+    "image": "theme_6",
+    "audio": "audio_198.mp3"
+  },
+  {
+    "id": 199,
+    "sentence": "The roof is leaking.",
+    "translation": "سقف در حال چکیدن است.",
+    "image": "theme_6",
+    "audio": "audio_199.mp3"
+  },
+  {
+    "id": 200,
+    "sentence": "We need some new furniture.",
+    "translation": "به چند اثاثیه جدید نیاز داریم.",
+    "image": "theme_6",
+    "audio": "audio_200.mp3"
+  },
+  {
+    "id": 201,
+    "sentence": "The air conditioner is on.",
+    "translation": "کولر روشن است.",
+    "image": "theme_6",
+    "audio": "audio_201.mp3"
+  },
+  {
+    "id": 202,
+    "sentence": "Where is the trash can?",
+    "translation": "سطل زباله کجاست؟",
+    "image": "theme_6",
+    "audio": "audio_202.mp3"
+  },
+  {
+    "id": 203,
+    "sentence": "I love staying at home.",
+    "translation": "دوست دارم در خانه بمانم.",
+    "image": "theme_6",
+    "audio": "audio_203.mp3"
+  },
+  {
+    "id": 204,
+    "sentence": "Can you vacuum the floor?",
+    "translation": "می‌توانی زمین را جاروبرقی بکشی؟",
+    "image": "theme_6",
+    "audio": "audio_204.mp3"
+  },
+  {
+    "id": 205,
+    "sentence": "My closet is small.",
+    "translation": "کمد لباس من کوچک است.",
+    "image": "theme_6",
+    "audio": "audio_205.mp3"
+  },
+  {
+    "id": 206,
+    "sentence": "We have a garage.",
+    "translation": "ما پارکینگ (گاراژ) داریم.",
+    "image": "theme_6",
+    "audio": "audio_206.mp3"
+  },
+  {
+    "id": 207,
+    "sentence": "The heater is broken.",
+    "translation": "بخاری خراب است.",
+    "image": "theme_6",
+    "audio": "audio_207.mp3"
+  },
+  {
+    "id": 208,
+    "sentence": "The walls are painted blue.",
+    "translation": "دیوارها آبی رنگ شده‌اند.",
+    "image": "theme_6",
+    "audio": "audio_208.mp3"
+  },
+  {
+    "id": 209,
+    "sentence": "Welcome to our home.",
+    "translation": "به خانه ما خوش آمدید.",
+    "image": "theme_6",
+    "audio": "audio_209.mp3"
+  },
+  {
+    "id": 210,
+    "sentence": "It feels like home.",
+    "translation": "حس خانه را می‌دهد.",
+    "image": "theme_6",
+    "audio": "audio_210.mp3"
+  },
+  {
+    "id": 211,
+    "sentence": "What do you want to eat?",
+    "translation": "چه چیزی می‌خواهی بخوری؟",
+    "image": "theme_7",
+    "audio": "audio_211.mp3"
+  },
+  {
+    "id": 212,
+    "sentence": "I am very hungry.",
+    "translation": "من خیلی گرسنه هستم.",
+    "image": "theme_7",
+    "audio": "audio_212.mp3"
+  },
+  {
+    "id": 213,
+    "sentence": "I am thirsty.",
+    "translation": "من تشنه هستم.",
+    "image": "theme_7",
+    "audio": "audio_213.mp3"
+  },
+  {
+    "id": 214,
+    "sentence": "The food is delicious.",
+    "translation": "غذا لذیذ است.",
+    "image": "theme_7",
+    "audio": "audio_214.mp3"
+  },
+  {
+    "id": 215,
+    "sentence": "I like hot tea.",
+    "translation": "من چای داغ دوست دارم.",
+    "image": "theme_7",
+    "audio": "audio_215.mp3"
+  },
+  {
+    "id": 216,
+    "sentence": "I need some fresh water.",
+    "translation": "به کمی آب تازه نیاز دارم.",
+    "image": "theme_7",
+    "audio": "audio_216.mp3"
+  },
+  {
+    "id": 217,
+    "sentence": "Let's go to a restaurant.",
+    "translation": "بیا به یک رستوران برویم.",
+    "image": "theme_7",
+    "audio": "audio_217.mp3"
+  },
+  {
+    "id": 218,
+    "sentence": "Could I see the menu?",
+    "translation": "می‌توانم منو را ببینم؟",
+    "image": "theme_7",
+    "audio": "audio_218.mp3"
+  },
+  {
+    "id": 219,
+    "sentence": "I want to order now.",
+    "translation": "می‌خواهم الان سفارش دهم.",
+    "image": "theme_7",
+    "audio": "audio_219.mp3"
+  },
+  {
+    "id": 220,
+    "sentence": "Are you ready to order?",
+    "translation": "آیا برای سفارش دادن آماده‌اید؟",
+    "image": "theme_7",
+    "audio": "audio_220.mp3"
+  },
+  {
+    "id": 221,
+    "sentence": "I am a vegetarian.",
+    "translation": "من گیاهخوار هستم.",
+    "image": "theme_7",
+    "audio": "audio_221.mp3"
+  },
+  {
+    "id": 222,
+    "sentence": "Is this food spicy?",
+    "translation": "آیا این غذا تند است؟",
+    "image": "theme_7",
+    "audio": "audio_222.mp3"
+  },
+  {
+    "id": 223,
+    "sentence": "Check, please.",
+    "translation": "صورت‌حساب، لطفا.",
+    "image": "theme_7",
+    "audio": "audio_223.mp3"
+  },
+  {
+    "id": 224,
+    "sentence": "Keep the change.",
+    "translation": "بقیه پول برای خودتان (انعام).",
+    "image": "theme_7",
+    "audio": "audio_224.mp3"
+  },
+  {
+    "id": 225,
+    "sentence": "I would like chicken.",
+    "translation": "من مرغ می‌خواهم.",
+    "image": "theme_7",
+    "audio": "audio_225.mp3"
+  },
+  {
+    "id": 226,
+    "sentence": "What is the daily special?",
+    "translation": "غذای ویژه امروز چیست؟",
+    "image": "theme_7",
+    "audio": "audio_226.mp3"
+  },
+  {
+    "id": 227,
+    "sentence": "Can I get some salt?",
+    "translation": "می‌توانم کمی نمک بگیرم؟",
+    "image": "theme_7",
+    "audio": "audio_227.mp3"
+  },
+  {
+    "id": 228,
+    "sentence": "I love Italian food.",
+    "translation": "من عاشق غذای ایتالیایی هستم.",
+    "image": "theme_7",
+    "audio": "audio_228.mp3"
+  },
+  {
+    "id": 229,
+    "sentence": "The service was excellent.",
+    "translation": "خدمات‌رسانی عالی بود.",
+    "image": "theme_7",
+    "audio": "audio_229.mp3"
+  },
+  {
+    "id": 230,
+    "sentence": "Do you want dessert?",
+    "translation": "آیا دسر می‌خواهید؟",
+    "image": "theme_7",
+    "audio": "audio_230.mp3"
+  },
+  {
+    "id": 231,
+    "sentence": "I am full, thank you.",
+    "translation": "من سیر هستم، ممنون.",
+    "image": "theme_7",
+    "audio": "audio_231.mp3"
+  },
+  {
+    "id": 232,
+    "sentence": "This soup is cold.",
+    "translation": "این سوپ سرد است.",
+    "image": "theme_7",
+    "audio": "audio_232.mp3"
+  },
+  {
+    "id": 233,
+    "sentence": "Enjoy your meal!",
+    "translation": "نوش جان!",
+    "image": "theme_7",
+    "audio": "audio_233.mp3"
+  },
+  {
+    "id": 234,
+    "sentence": "I want a cup of coffee.",
+    "translation": "من یک فنجان قهوه می‌خواهم.",
+    "image": "theme_7",
+    "audio": "audio_234.mp3"
+  },
+  {
+    "id": 235,
+    "sentence": "I prefer healthy food.",
+    "translation": "من غذای سالم را ترجیح می‌دهم.",
+    "image": "theme_7",
+    "audio": "audio_235.mp3"
+  },
+  {
+    "id": 236,
+    "sentence": "Can we get a table for two?",
+    "translation": "می‌توانیم یک میز دونفره بگیریم؟",
+    "image": "theme_7",
+    "audio": "audio_236.mp3"
+  },
+  {
+    "id": 237,
+    "sentence": "This restaurant is popular.",
+    "translation": "این رستوران محبوب است.",
+    "image": "theme_7",
+    "audio": "audio_237.mp3"
+  },
+  {
+    "id": 238,
+    "sentence": "I cooked dinner myself.",
+    "translation": "خودم شام را پختم.",
+    "image": "theme_7",
+    "audio": "audio_238.mp3"
+  },
+  {
+    "id": 239,
+    "sentence": "What is your favorite food?",
+    "translation": "غذای مورد علاقه شما چیست؟",
+    "image": "theme_7",
+    "audio": "audio_239.mp3"
+  },
+  {
+    "id": 240,
+    "sentence": "I need a spoon and fork.",
+    "translation": "به قاشق و چنگال نیاز دارم.",
+    "image": "theme_7",
+    "audio": "audio_240.mp3"
+  },
+  {
+    "id": 241,
+    "sentence": "Please pass the water.",
+    "translation": "لطفا آب را دست به دست کنید.",
+    "image": "theme_7",
+    "audio": "audio_241.mp3"
+  },
+  {
+    "id": 242,
+    "sentence": "The bread is fresh.",
+    "translation": "نان تازه است.",
+    "image": "theme_7",
+    "audio": "audio_242.mp3"
+  },
+  {
+    "id": 243,
+    "sentence": "I don't like fast food.",
+    "translation": "من غذای آماده (فست‌فود) دوست ندارم.",
+    "image": "theme_7",
+    "audio": "audio_243.mp3"
+  },
+  {
+    "id": 244,
+    "sentence": "Do you have fish?",
+    "translation": "آیا ماهی دارید؟",
+    "image": "theme_7",
+    "audio": "audio_244.mp3"
+  },
+  {
+    "id": 245,
+    "sentence": "This is delicious sweet.",
+    "translation": "این شیرینی خوشمزه است.",
+    "image": "theme_7",
+    "audio": "audio_245.mp3"
+  },
+  {
+    "id": 246,
+    "sentence": "How much is this?",
+    "translation": "قیمت این چقدر است؟",
+    "image": "theme_8",
+    "audio": "audio_246.mp3"
+  },
+  {
+    "id": 247,
+    "sentence": "It is too expensive.",
+    "translation": "خیلی گران است.",
+    "image": "theme_8",
+    "audio": "audio_247.mp3"
+  },
+  {
+    "id": 248,
+    "sentence": "Can I get a discount?",
+    "translation": "می‌توانم تخفیف بگیرم؟",
+    "image": "theme_8",
+    "audio": "audio_248.mp3"
+  },
+  {
+    "id": 249,
+    "sentence": "I want to buy this book.",
+    "translation": "می‌خواهم این کتاب را بخرم.",
+    "image": "theme_8",
+    "audio": "audio_249.mp3"
+  },
+  {
+    "id": 250,
+    "sentence": "Do you accept credit cards?",
+    "translation": "آیا کارت اعتباری می‌پذیرید؟",
+    "image": "theme_8",
+    "audio": "audio_250.mp3"
+  },
+  {
+    "id": 251,
+    "sentence": "Where is the bank?",
+    "translation": "بانک کجاست؟",
+    "image": "theme_8",
+    "audio": "audio_251.mp3"
+  },
+  {
+    "id": 252,
+    "sentence": "Where can I buy clothes?",
+    "translation": "از کجا می‌توانم لباس بخرم؟",
+    "image": "theme_8",
+    "audio": "audio_252.mp3"
+  },
+  {
+    "id": 253,
+    "sentence": "I need to withdraw money.",
+    "translation": "باید پول برداشت کنم.",
+    "image": "theme_8",
+    "audio": "audio_253.mp3"
+  },
+  {
+    "id": 254,
+    "sentence": "Where is the cashier?",
+    "translation": "صندوق‌دار کجاست؟",
+    "image": "theme_8",
+    "audio": "audio_254.mp3"
+  },
+  {
+    "id": 255,
+    "sentence": "Is there a sale today?",
+    "translation": "آیا امروز حراج است؟",
+    "image": "theme_8",
+    "audio": "audio_255.mp3"
+  },
+  {
+    "id": 256,
+    "sentence": "I am just looking.",
+    "translation": "فقط دارم نگاه می‌کنم (قصدم خرید نیست).",
+    "image": "theme_8",
+    "audio": "audio_256.mp3"
+  },
+  {
+    "id": 257,
+    "sentence": "Do you have this in blue?",
+    "translation": "آیا این را به رنگ آبی دارید؟",
+    "image": "theme_8",
+    "audio": "audio_257.mp3"
+  },
+  {
+    "id": 258,
+    "sentence": "What is your return policy?",
+    "translation": "شرایط مرجوع کردن شما چیست؟",
+    "image": "theme_8",
+    "audio": "audio_258.mp3"
+  },
+  {
+    "id": 259,
+    "sentence": "I need a receipt, please.",
+    "translation": "به رسید نیاز دارم، لطفا.",
+    "image": "theme_8",
+    "audio": "audio_259.mp3"
+  },
+  {
+    "id": 260,
+    "sentence": "Where is the shopping mall?",
+    "translation": "مرکز خرید کجاست؟",
+    "image": "theme_8",
+    "audio": "audio_260.mp3"
+  },
+  {
+    "id": 261,
+    "sentence": "This is a good price.",
+    "translation": "این قیمت خوبی است.",
+    "image": "theme_8",
+    "audio": "audio_261.mp3"
+  },
+  {
+    "id": 262,
+    "sentence": "This is on sale.",
+    "translation": "این محصول تخفیف خورده است.",
+    "image": "theme_8",
+    "audio": "audio_262.mp3"
+  },
+  {
+    "id": 263,
+    "sentence": "I want to open a bank account.",
+    "translation": "می‌خواهم یک حساب بانکی باز کنم.",
+    "image": "theme_8",
+    "audio": "audio_263.mp3"
+  },
+  {
+    "id": 264,
+    "sentence": "What is the exchange rate?",
+    "translation": "نرخ ارز چقدر است؟",
+    "image": "theme_8",
+    "audio": "audio_264.mp3"
+  },
+  {
+    "id": 265,
+    "sentence": "I need to pay my bills.",
+    "translation": "باید قبوضم را پرداخت کنم.",
+    "image": "theme_8",
+    "audio": "audio_265.mp3"
+  },
+  {
+    "id": 266,
+    "sentence": "This shop is closed.",
+    "translation": "این مغازه بسته است.",
+    "image": "theme_8",
+    "audio": "audio_266.mp3"
+  },
+  {
+    "id": 267,
+    "sentence": "Do you have a smaller size?",
+    "translation": "آیا سایز کوچکتری دارید؟",
+    "image": "theme_8",
+    "audio": "audio_267.mp3"
+  },
+  {
+    "id": 268,
+    "sentence": "Do you have a larger size?",
+    "translation": "آیا سایز بزرگتری دارید؟",
+    "image": "theme_8",
+    "audio": "audio_268.mp3"
+  },
+  {
+    "id": 269,
+    "sentence": "Can I try this on?",
+    "translation": "می‌توانم این را پرو کنم؟",
+    "image": "theme_8",
+    "audio": "audio_269.mp3"
+  },
+  {
+    "id": 270,
+    "sentence": "Where is the fitting room?",
+    "translation": "اتاق پرو کجاست؟",
+    "image": "theme_8",
+    "audio": "audio_270.mp3"
+  },
+  {
+    "id": 271,
+    "sentence": "I'd like to pay in cash.",
+    "translation": "می‌خواهم نقدی پرداخت کنم.",
+    "image": "theme_8",
+    "audio": "audio_271.mp3"
+  },
+  {
+    "id": 272,
+    "sentence": "I spent too much money.",
+    "translation": "پول زیادی خرج کردم.",
+    "image": "theme_8",
+    "audio": "audio_272.mp3"
+  },
+  {
+    "id": 273,
+    "sentence": "I want to save money.",
+    "translation": "می‌خواهم پول پس‌انداز کنم.",
+    "image": "theme_8",
+    "audio": "audio_273.mp3"
+  },
+  {
+    "id": 274,
+    "sentence": "Do you sell shoes?",
+    "translation": "آیا کفش می‌فروشید؟",
+    "image": "theme_8",
+    "audio": "audio_274.mp3"
+  },
+  {
+    "id": 275,
+    "sentence": "This item is out of stock.",
+    "translation": "این کالا موجود نیست.",
+    "image": "theme_8",
+    "audio": "audio_275.mp3"
+  },
+  {
+    "id": 276,
+    "sentence": "Is it high quality?",
+    "translation": "آیا کیفیت بالایی دارد؟",
+    "image": "theme_8",
+    "audio": "audio_276.mp3"
+  },
+  {
+    "id": 277,
+    "sentence": "I bought this yesterday.",
+    "translation": "این را دیروز خریدم.",
+    "image": "theme_8",
+    "audio": "audio_277.mp3"
+  },
+  {
+    "id": 278,
+    "sentence": "Where is the grocery store?",
+    "translation": "خواربارفروشی کجاست؟",
+    "image": "theme_8",
+    "audio": "audio_278.mp3"
+  },
+  {
+    "id": 279,
+    "sentence": "The prices are reasonable.",
+    "translation": "قیمت‌ها مناسب هستند.",
+    "image": "theme_8",
+    "audio": "audio_279.mp3"
+  },
+  {
+    "id": 280,
+    "sentence": "I need a shopping bag.",
+    "translation": "به یک کیسه خرید نیاز دارم.",
+    "image": "theme_8",
+    "audio": "audio_280.mp3"
+  },
+  {
+    "id": 281,
+    "sentence": "Where do you work?",
+    "translation": "کجا کار می‌کنید؟",
+    "image": "theme_9",
+    "audio": "audio_281.mp3"
+  },
+  {
+    "id": 282,
+    "sentence": "I work in an office.",
+    "translation": "من در یک دفتر کار می‌کنم.",
+    "image": "theme_9",
+    "audio": "audio_282.mp3"
+  },
+  {
+    "id": 283,
+    "sentence": "What is your job?",
+    "translation": "شغل شما چیست؟",
+    "image": "theme_9",
+    "audio": "audio_283.mp3"
+  },
+  {
+    "id": 284,
+    "sentence": "I am a doctor.",
+    "translation": "من پزشک هستم.",
+    "image": "theme_9",
+    "audio": "audio_284.mp3"
+  },
+  {
+    "id": 285,
+    "sentence": "I am very busy at work.",
+    "translation": "من سر کار خیلی شلوغم.",
+    "image": "theme_9",
+    "audio": "audio_285.mp3"
+  },
+  {
+    "id": 286,
+    "sentence": "I have a meeting at nine.",
+    "translation": "ساعت نه جلسه دارم.",
+    "image": "theme_9",
+    "audio": "audio_286.mp3"
+  },
+  {
+    "id": 287,
+    "sentence": "I am looking for a job.",
+    "translation": "من به دنبال کار هستم.",
+    "image": "theme_9",
+    "audio": "audio_287.mp3"
+  },
+  {
+    "id": 288,
+    "sentence": "I love my career.",
+    "translation": "من عاشق حرفه‌ام هستم.",
+    "image": "theme_9",
+    "audio": "audio_288.mp3"
+  },
+  {
+    "id": 289,
+    "sentence": "What is your company's name?",
+    "translation": "نام شرکت شما چیست؟",
+    "image": "theme_9",
+    "audio": "audio_289.mp3"
+  },
+  {
+    "id": 290,
+    "sentence": "We have a new project.",
+    "translation": "ما یک پروژه جدید داریم.",
+    "image": "theme_9",
+    "audio": "audio_290.mp3"
+  },
+  {
+    "id": 291,
+    "sentence": "My boss is very friendly.",
+    "translation": "رئیس من بسیار صمیمی است.",
+    "image": "theme_9",
+    "audio": "audio_291.mp3"
+  },
+  {
+    "id": 292,
+    "sentence": "I got a promotion.",
+    "translation": "من ارتقای شغلی گرفتم.",
+    "image": "theme_9",
+    "audio": "audio_292.mp3"
+  },
+  {
+    "id": 293,
+    "sentence": "She is my coworker.",
+    "translation": "او همکار من است.",
+    "image": "theme_9",
+    "audio": "audio_293.mp3"
+  },
+  {
+    "id": 294,
+    "sentence": "We work in a team.",
+    "translation": "ما به صورت تیمی کار می‌کنیم.",
+    "image": "theme_9",
+    "audio": "audio_294.mp3"
+  },
+  {
+    "id": 295,
+    "sentence": "The office is modern.",
+    "translation": "دفتر کار مدرن است.",
+    "image": "theme_9",
+    "audio": "audio_295.mp3"
+  },
+  {
+    "id": 296,
+    "sentence": "I work full-time.",
+    "translation": "من تمام‌وقت کار می‌کنم.",
+    "image": "theme_9",
+    "audio": "audio_296.mp3"
+  },
+  {
+    "id": 297,
+    "sentence": "I work part-time.",
+    "translation": "من پاره‌وقت کار می‌کنم.",
+    "image": "theme_9",
+    "audio": "audio_297.mp3"
+  },
+  {
+    "id": 298,
+    "sentence": "I have a job interview.",
+    "translation": "مصاحبه کاری دارم.",
+    "image": "theme_9",
+    "audio": "audio_298.mp3"
+  },
+  {
+    "id": 299,
+    "sentence": "Where is your office located?",
+    "translation": "دفتر شما کجا واقع شده است؟",
+    "image": "theme_9",
+    "audio": "audio_299.mp3"
+  },
+  {
+    "id": 300,
+    "sentence": "I will send you an email.",
+    "translation": "برای شما ایمیل خواهم فرستاد.",
+    "image": "theme_9",
+    "audio": "audio_300.mp3"
+  },
+  {
+    "id": 301,
+    "sentence": "My salary is good.",
+    "translation": "حقوق من خوب است.",
+    "image": "theme_9",
+    "audio": "audio_301.mp3"
+  },
+  {
+    "id": 302,
+    "sentence": "I want to start a business.",
+    "translation": "می‌خواهم یک کسب‌وکار راه‌اندازی کنم.",
+    "image": "theme_9",
+    "audio": "audio_302.mp3"
+  },
+  {
+    "id": 303,
+    "sentence": "The deadline is tomorrow.",
+    "translation": "مهلت تحویل فردا است.",
+    "image": "theme_9",
+    "audio": "audio_303.mp3"
+  },
+  {
+    "id": 304,
+    "sentence": "We need more employees.",
+    "translation": "ما به کارمندان بیشتری نیاز داریم.",
+    "image": "theme_9",
+    "audio": "audio_304.mp3"
+  },
+  {
+    "id": 305,
+    "sentence": "I need to write a report.",
+    "translation": "باید یک گزارش بنویسم.",
+    "image": "theme_9",
+    "audio": "audio_305.mp3"
+  },
+  {
+    "id": 306,
+    "sentence": "He is very professional.",
+    "translation": "او بسیار حرفه‌ای است.",
+    "image": "theme_9",
+    "audio": "audio_306.mp3"
+  },
+  {
+    "id": 307,
+    "sentence": "Are you working today?",
+    "translation": "آیا امروز کار می‌کنی؟",
+    "image": "theme_9",
+    "audio": "audio_307.mp3"
+  },
+  {
+    "id": 308,
+    "sentence": "I have a lot of experience.",
+    "translation": "من تجربه زیادی دارم.",
+    "image": "theme_9",
+    "audio": "audio_308.mp3"
+  },
+  {
+    "id": 309,
+    "sentence": "I worked late last night.",
+    "translation": "دیشب تا دیروقت کار کردم.",
+    "image": "theme_9",
+    "audio": "audio_309.mp3"
+  },
+  {
+    "id": 310,
+    "sentence": "What are your working hours?",
+    "translation": "ساعات کاری شما چگونه است؟",
+    "image": "theme_9",
+    "audio": "audio_310.mp3"
+  },
+  {
+    "id": 311,
+    "sentence": "I have a flexible schedule.",
+    "translation": "من برنامه کاری انعطاف‌پذیری دارم.",
+    "image": "theme_9",
+    "audio": "audio_311.mp3"
+  },
+  {
+    "id": 312,
+    "sentence": "We had a successful meeting.",
+    "translation": "ما جلسه موفقی داشتیم.",
+    "image": "theme_9",
+    "audio": "audio_312.mp3"
+  },
+  {
+    "id": 313,
+    "sentence": "I need to update my resume.",
+    "translation": "باید رزومه‌ام را به‌روز کنم.",
+    "image": "theme_9",
+    "audio": "audio_313.mp3"
+  },
+  {
+    "id": 314,
+    "sentence": "The factory is large.",
+    "translation": "کارخانه بزرگ است.",
+    "image": "theme_9",
+    "audio": "audio_314.mp3"
+  },
+  {
+    "id": 315,
+    "sentence": "I am going on a business trip.",
+    "translation": "به سفر کاری می‌روم.",
+    "image": "theme_9",
+    "audio": "audio_315.mp3"
+  },
+  {
+    "id": 316,
+    "sentence": "I am a student.",
+    "translation": "من یک دانشجو هستم.",
+    "image": "theme_10",
+    "audio": "audio_316.mp3"
+  },
+  {
+    "id": 317,
+    "sentence": "What is your major?",
+    "translation": "رشته تحصیلی شما چیست؟",
+    "image": "theme_10",
+    "audio": "audio_317.mp3"
+  },
+  {
+    "id": 318,
+    "sentence": "I study English literature.",
+    "translation": "من ادبیات انگلیسی می‌خوانم.",
+    "image": "theme_10",
+    "audio": "audio_318.mp3"
+  },
+  {
+    "id": 319,
+    "sentence": "The class starts at eight.",
+    "translation": "کلاس ساعت هشت شروع می‌شود.",
+    "image": "theme_10",
+    "audio": "audio_319.mp3"
+  },
+  {
+    "id": 320,
+    "sentence": "I have an exam tomorrow.",
+    "translation": "فردا امتحان دارم.",
+    "image": "theme_10",
+    "audio": "audio_320.mp3"
+  },
+  {
+    "id": 321,
+    "sentence": "I need to study tonight.",
+    "translation": "امشب باید درس بخوانم.",
+    "image": "theme_10",
+    "audio": "audio_321.mp3"
+  },
+  {
+    "id": 322,
+    "sentence": "Where is the library?",
+    "translation": "کتابخانه کجاست؟",
+    "image": "theme_10",
+    "audio": "audio_322.mp3"
+  },
+  {
+    "id": 323,
+    "sentence": "I am writing a paper.",
+    "translation": "در حال نوشتن یک مقاله هستم.",
+    "image": "theme_10",
+    "audio": "audio_323.mp3"
+  },
+  {
+    "id": 324,
+    "sentence": "Who is your teacher?",
+    "translation": "معلم شما کیست؟",
+    "image": "theme_10",
+    "audio": "audio_324.mp3"
+  },
+  {
+    "id": 325,
+    "sentence": "My professor is very knowledgeable.",
+    "translation": "استاد من بسیار باسواد است.",
+    "image": "theme_10",
+    "audio": "audio_325.mp3"
+  },
+  {
+    "id": 326,
+    "sentence": "I graduated from college.",
+    "translation": "من از دانشکده فارغ‌التحصیل شدم.",
+    "image": "theme_10",
+    "audio": "audio_326.mp3"
+  },
+  {
+    "id": 327,
+    "sentence": "Do you like school?",
+    "translation": "آیا مدرسه را دوست داری؟",
+    "image": "theme_10",
+    "audio": "audio_327.mp3"
+  },
+  {
+    "id": 328,
+    "sentence": "The school is closed today.",
+    "translation": "امروز مدرسه تعطیل است.",
+    "image": "theme_10",
+    "audio": "audio_328.mp3"
+  },
+  {
+    "id": 329,
+    "sentence": "I need some textbooks.",
+    "translation": "به چند کتاب درسی نیاز دارم.",
+    "image": "theme_10",
+    "audio": "audio_329.mp3"
+  },
+  {
+    "id": 330,
+    "sentence": "Where is the classroom?",
+    "translation": "کلاس درس کجاست؟",
+    "image": "theme_10",
+    "audio": "audio_330.mp3"
+  },
+  {
+    "id": 331,
+    "sentence": "The homework is difficult.",
+    "translation": "تکلیف خانه سخت است.",
+    "image": "theme_10",
+    "audio": "audio_331.mp3"
+  },
+  {
+    "id": 332,
+    "sentence": "I passed the English test.",
+    "translation": "من امتحان انگلیسی را قبول شدم.",
+    "image": "theme_10",
+    "audio": "audio_332.mp3"
+  },
+  {
+    "id": 333,
+    "sentence": "I failed the history exam.",
+    "translation": "من در امتحان تاریخ رد شدم.",
+    "image": "theme_10",
+    "audio": "audio_333.mp3"
+  },
+  {
+    "id": 334,
+    "sentence": "The campus is beautiful.",
+    "translation": "محوطه دانشگاه زیباست.",
+    "image": "theme_10",
+    "audio": "audio_334.mp3"
+  },
+  {
+    "id": 335,
+    "sentence": "I want to get a scholarship.",
+    "translation": "می‌خواهم بورس تحصیلی بگیرم.",
+    "image": "theme_10",
+    "audio": "audio_335.mp3"
+  },
+  {
+    "id": 336,
+    "sentence": "Education is the key.",
+    "translation": "آموزش کلید موفقیت است.",
+    "image": "theme_10",
+    "audio": "audio_336.mp3"
+  },
+  {
+    "id": 337,
+    "sentence": "Are you studying now?",
+    "translation": "آیا الان در حال مطالعه هستی؟",
+    "image": "theme_10",
+    "audio": "audio_337.mp3"
+  },
+  {
+    "id": 338,
+    "sentence": "I learned many things.",
+    "translation": "چیزهای زیادی یاد گرفتم.",
+    "image": "theme_10",
+    "audio": "audio_338.mp3"
+  },
+  {
+    "id": 339,
+    "sentence": "We did a group project.",
+    "translation": "ما یک پروژه گروهی انجام دادیم.",
+    "image": "theme_10",
+    "audio": "audio_339.mp3"
+  },
+  {
+    "id": 340,
+    "sentence": "I need to register for classes.",
+    "translation": "باید برای کلاس‌ها ثبت‌نام کنم.",
+    "image": "theme_10",
+    "audio": "audio_340.mp3"
+  },
+  {
+    "id": 341,
+    "sentence": "What is your favorite subject?",
+    "translation": "موضوع مورد علاقه شما چیست؟",
+    "image": "theme_10",
+    "audio": "audio_341.mp3"
+  },
+  {
+    "id": 342,
+    "sentence": "I like science and math.",
+    "translation": "من علوم و ریاضی را دوست دارم.",
+    "image": "theme_10",
+    "audio": "audio_342.mp3"
+  },
+  {
+    "id": 343,
+    "sentence": "The course is very interesting.",
+    "translation": "دوره آموزشی بسیار جالب است.",
+    "image": "theme_10",
+    "audio": "audio_343.mp3"
+  },
+  {
+    "id": 344,
+    "sentence": "Where is the student center?",
+    "translation": "مرکز دانشجویی کجاست؟",
+    "image": "theme_10",
+    "audio": "audio_344.mp3"
+  },
+  {
+    "id": 345,
+    "sentence": "I am preparing a presentation.",
+    "translation": "در حال آماده کردن یک ارائه هستم.",
+    "image": "theme_10",
+    "audio": "audio_345.mp3"
+  },
+  {
+    "id": 346,
+    "sentence": "Our teacher is very patient.",
+    "translation": "معلم ما بسیار صبور است.",
+    "image": "theme_10",
+    "audio": "audio_346.mp3"
+  },
+  {
+    "id": 347,
+    "sentence": "The semester is ending soon.",
+    "translation": "نیم‌سال تحصیلی به زودی پایان می‌یابد.",
+    "image": "theme_10",
+    "audio": "audio_347.mp3"
+  },
+  {
+    "id": 348,
+    "sentence": "I want to study abroad.",
+    "translation": "می‌خواهم در خارج از کشور تحصیل کنم.",
+    "image": "theme_10",
+    "audio": "audio_348.mp3"
+  },
+  {
+    "id": 349,
+    "sentence": "The library is quiet.",
+    "translation": "کتابخانه ساکت است.",
+    "image": "theme_10",
+    "audio": "audio_349.mp3"
+  },
+  {
+    "id": 350,
+    "sentence": "Do your homework, please.",
+    "translation": "لطفاً تکالیفت را انجام بده.",
+    "image": "theme_10",
+    "audio": "audio_350.mp3"
+  },
+  {
+    "id": 351,
+    "sentence": "Where are we going?",
+    "translation": "کجا داریم می‌ریم؟",
+    "image": "theme_11",
+    "audio": "audio_351.mp3"
+  },
+  {
+    "id": 352,
+    "sentence": "I am lost.",
+    "translation": "من گم شده‌ام.",
+    "image": "theme_11",
+    "audio": "audio_352.mp3"
+  },
+  {
+    "id": 353,
+    "sentence": "Can you show me on the map?",
+    "translation": "می‌توانید روی نقشه به من نشان دهید؟",
+    "image": "theme_11",
+    "audio": "audio_353.mp3"
+  },
+  {
+    "id": 354,
+    "sentence": "Is it far from here?",
+    "translation": "آیا از اینجا دور است؟",
+    "image": "theme_11",
+    "audio": "audio_354.mp3"
+  },
+  {
+    "id": 355,
+    "sentence": "I need a train ticket.",
+    "translation": "به بلیط قطار نیاز دارم.",
+    "image": "theme_11",
+    "audio": "audio_355.mp3"
+  },
+  {
+    "id": 356,
+    "sentence": "Where is the airport?",
+    "translation": "فرودگاه کجاست؟",
+    "image": "theme_11",
+    "audio": "audio_356.mp3"
+  },
+  {
+    "id": 357,
+    "sentence": "I have a hotel reservation.",
+    "translation": "من در هتل رزرو دارم.",
+    "image": "theme_11",
+    "audio": "audio_357.mp3"
+  },
+  {
+    "id": 358,
+    "sentence": "Where can I buy tickets?",
+    "translation": "از کجا می‌توانم بلیط بخرم؟",
+    "image": "theme_11",
+    "audio": "audio_358.mp3"
+  },
+  {
+    "id": 359,
+    "sentence": "I need a taxi immediately.",
+    "translation": "فوراً به تاکسی نیاز دارم.",
+    "image": "theme_11",
+    "audio": "audio_359.mp3"
+  },
+  {
+    "id": 360,
+    "sentence": "Where is the bus stop?",
+    "translation": "ایستگاه اتوبوس کجاست؟",
+    "image": "theme_11",
+    "audio": "audio_360.mp3"
+  },
+  {
+    "id": 361,
+    "sentence": "The train is on time.",
+    "translation": "قطار به موقع می‌رسد.",
+    "image": "theme_11",
+    "audio": "audio_361.mp3"
+  },
+  {
+    "id": 362,
+    "sentence": "Is this seat free?",
+    "translation": "آیا این صندلی خالی است؟",
+    "image": "theme_11",
+    "audio": "audio_362.mp3"
+  },
+  {
+    "id": 363,
+    "sentence": "I missed my bus.",
+    "translation": "اتوبوسم را از دست دادم.",
+    "image": "theme_11",
+    "audio": "audio_363.mp3"
+  },
+  {
+    "id": 364,
+    "sentence": "Check-in is at two PM.",
+    "translation": "ساعت ورود به هتل (چک‌این) ساعت دو است.",
+    "image": "theme_11",
+    "audio": "audio_364.mp3"
+  },
+  {
+    "id": 365,
+    "sentence": "I need to book a flight.",
+    "translation": "باید یک پرواز رزرو کنم.",
+    "image": "theme_11",
+    "audio": "audio_365.mp3"
+  },
+  {
+    "id": 366,
+    "sentence": "Where is my passport?",
+    "translation": "پاسپورت من کجاست؟",
+    "image": "theme_11",
+    "audio": "audio_366.mp3"
+  },
+  {
+    "id": 367,
+    "sentence": "The flight was delayed.",
+    "translation": "پرواز تاخیر داشت.",
+    "image": "theme_11",
+    "audio": "audio_367.mp3"
+  },
+  {
+    "id": 368,
+    "sentence": "I am traveling for pleasure.",
+    "translation": "برای تفریح سفر می‌کنم.",
+    "image": "theme_11",
+    "audio": "audio_368.mp3"
+  },
+  {
+    "id": 369,
+    "sentence": "The scenery is beautiful.",
+    "translation": "مناظر زیبا هستند.",
+    "image": "theme_11",
+    "audio": "audio_369.mp3"
+  },
+  {
+    "id": 370,
+    "sentence": "How long is the trip?",
+    "translation": "سفر چقدر طول می‌کشد؟",
+    "image": "theme_11",
+    "audio": "audio_370.mp3"
+  },
+  {
+    "id": 371,
+    "sentence": "I want a single room.",
+    "translation": "من یک اتاق یک‌نفره می‌خواهم.",
+    "image": "theme_11",
+    "audio": "audio_371.mp3"
+  },
+  {
+    "id": 372,
+    "sentence": "Does the room have Wi-Fi?",
+    "translation": "آیا اتاق وای‌فای دارد؟",
+    "image": "theme_11",
+    "audio": "audio_372.mp3"
+  },
+  {
+    "id": 373,
+    "sentence": "I need to pack my bags.",
+    "translation": "باید وسایلم را جمع کنم.",
+    "image": "theme_11",
+    "audio": "audio_373.mp3"
+  },
+  {
+    "id": 374,
+    "sentence": "Where is the baggage claim?",
+    "translation": "محل تحویل بار کجاست؟",
+    "image": "theme_11",
+    "audio": "audio_374.mp3"
+  },
+  {
+    "id": 375,
+    "sentence": "Have a safe trip!",
+    "translation": "سفر بی‌خطری داشته باشید!",
+    "image": "theme_11",
+    "audio": "audio_375.mp3"
+  },
+  {
+    "id": 376,
+    "sentence": "I love exploring new places.",
+    "translation": "عاشق کاوش در مکان‌های جدید هستم.",
+    "image": "theme_11",
+    "audio": "audio_376.mp3"
+  },
+  {
+    "id": 377,
+    "sentence": "Where is the subway station?",
+    "translation": "ایستگاه مترو کجاست؟",
+    "image": "theme_11",
+    "audio": "audio_377.mp3"
+  },
+  {
+    "id": 378,
+    "sentence": "The hotel is near the beach.",
+    "translation": "هتل نزدیک ساحل است.",
+    "image": "theme_11",
+    "audio": "audio_378.mp3"
+  },
+  {
+    "id": 379,
+    "sentence": "Is breakfast included?",
+    "translation": "آیا صبحانه شامل می‌شود؟",
+    "image": "theme_11",
+    "audio": "audio_379.mp3"
+  },
+  {
+    "id": 380,
+    "sentence": "I need a map of the city.",
+    "translation": "به یک نقشه از شهر نیاز دارم.",
+    "image": "theme_11",
+    "audio": "audio_380.mp3"
+  },
+  {
+    "id": 381,
+    "sentence": "The traffic is very heavy.",
+    "translation": "ترافیک خیلی سنگین است.",
+    "image": "theme_11",
+    "audio": "audio_381.mp3"
+  },
+  {
+    "id": 382,
+    "sentence": "Can we stop here?",
+    "translation": "می‌توانیم اینجا توقف کنیم؟",
+    "image": "theme_11",
+    "audio": "audio_382.mp3"
+  },
+  {
+    "id": 383,
+    "sentence": "The ticket is expensive.",
+    "translation": "بلیط گران است.",
+    "image": "theme_11",
+    "audio": "audio_383.mp3"
+  },
+  {
+    "id": 384,
+    "sentence": "Please drive slowly.",
+    "translation": "لطفا آهسته رانندگی کنید.",
+    "image": "theme_11",
+    "audio": "audio_384.mp3"
+  },
+  {
+    "id": 385,
+    "sentence": "I enjoyed my vacation.",
+    "translation": "از تعطیلاتم لذت بردم.",
+    "image": "theme_11",
+    "audio": "audio_385.mp3"
+  },
+  {
+    "id": 386,
+    "sentence": "Go straight ahead.",
+    "translation": "مستقیم به جلو بروید.",
+    "image": "theme_12",
+    "audio": "audio_386.mp3"
+  },
+  {
+    "id": 387,
+    "sentence": "Turn left at the corner.",
+    "translation": "در گوشه به چپ بپیچید.",
+    "image": "theme_12",
+    "audio": "audio_387.mp3"
+  },
+  {
+    "id": 388,
+    "sentence": "Turn right here.",
+    "translation": "اینجا به راست بپیچید.",
+    "image": "theme_12",
+    "audio": "audio_388.mp3"
+  },
+  {
+    "id": 389,
+    "sentence": "Where is the train station?",
+    "translation": "ایستگاه قطار کجاست؟",
+    "image": "theme_12",
+    "audio": "audio_389.mp3"
+  },
+  {
+    "id": 390,
+    "sentence": "How can I get to the airport?",
+    "translation": "چطور می‌توانم به فرودگاه بروم؟",
+    "image": "theme_12",
+    "audio": "audio_390.mp3"
+  },
+  {
+    "id": 391,
+    "sentence": "Is there a supermarket nearby?",
+    "translation": "آیا این نزدیکی‌ها سوپرمارکت هست؟",
+    "image": "theme_12",
+    "audio": "audio_391.mp3"
+  },
+  {
+    "id": 392,
+    "sentence": "It is opposite the bank.",
+    "translation": "روبروی بانک است.",
+    "image": "theme_12",
+    "audio": "audio_392.mp3"
+  },
+  {
+    "id": 393,
+    "sentence": "Walk for two blocks.",
+    "translation": "دو بلوک پیاده بروید.",
+    "image": "theme_12",
+    "audio": "audio_393.mp3"
+  },
+  {
+    "id": 394,
+    "sentence": "It is on your left.",
+    "translation": "در سمت چپ شما است.",
+    "image": "theme_12",
+    "audio": "audio_394.mp3"
+  },
+  {
+    "id": 395,
+    "sentence": "It is on your right.",
+    "translation": "در سمت راست شما است.",
+    "image": "theme_12",
+    "audio": "audio_395.mp3"
+  },
+  {
+    "id": 396,
+    "sentence": "Is it within walking distance?",
+    "translation": "آیا پیاده می‌توان به آنجا رسید؟",
+    "image": "theme_12",
+    "audio": "audio_396.mp3"
+  },
+  {
+    "id": 397,
+    "sentence": "Can you write the address?",
+    "translation": "می‌توانید آدرس را بنویسید؟",
+    "image": "theme_12",
+    "audio": "audio_397.mp3"
+  },
+  {
+    "id": 398,
+    "sentence": "I am looking for this street.",
+    "translation": "من به دنبال این خیابان هستم.",
+    "image": "theme_12",
+    "audio": "audio_398.mp3"
+  },
+  {
+    "id": 399,
+    "sentence": "What is your address?",
+    "translation": "آدرس شما چیست؟",
+    "image": "theme_12",
+    "audio": "audio_399.mp3"
+  },
+  {
+    "id": 400,
+    "sentence": "I live on Main Street.",
+    "translation": "من در خیابان اصلی زندگی می‌کنم.",
+    "image": "theme_12",
+    "audio": "audio_400.mp3"
+  },
+  {
+    "id": 401,
+    "sentence": "It is next to the post office.",
+    "translation": "کنار اداره پست است.",
+    "image": "theme_12",
+    "audio": "audio_401.mp3"
+  },
+  {
+    "id": 402,
+    "sentence": "Cross the road, please.",
+    "translation": "لطفا از جاده عبور کنید.",
+    "image": "theme_12",
+    "audio": "audio_402.mp3"
+  },
+  {
+    "id": 403,
+    "sentence": "Go through the park.",
+    "translation": "از میان پارک عبور کنید.",
+    "image": "theme_12",
+    "audio": "audio_403.mp3"
+  },
+  {
+    "id": 404,
+    "sentence": "It is at the end of the hall.",
+    "translation": "در انتهای سالن است.",
+    "image": "theme_12",
+    "audio": "audio_404.mp3"
+  },
+  {
+    "id": 405,
+    "sentence": "You are going the wrong way.",
+    "translation": "دارید مسیر را اشتباه می‌روید.",
+    "image": "theme_12",
+    "audio": "audio_405.mp3"
+  },
+  {
+    "id": 406,
+    "sentence": "Which way should I go?",
+    "translation": "از کدام طرف باید بروم؟",
+    "image": "theme_12",
+    "audio": "audio_406.mp3"
+  },
+  {
+    "id": 407,
+    "sentence": "It is very close to here.",
+    "translation": "به اینجا خیلی نزدیک است.",
+    "image": "theme_12",
+    "audio": "audio_407.mp3"
+  },
+  {
+    "id": 408,
+    "sentence": "Is it past the hospital?",
+    "translation": "آیا از بیمارستان رد می‌شود؟",
+    "image": "theme_12",
+    "audio": "audio_408.mp3"
+  },
+  {
+    "id": 409,
+    "sentence": "Follow the signs.",
+    "translation": "علائم را دنبال کنید.",
+    "image": "theme_12",
+    "audio": "audio_409.mp3"
+  },
+  {
+    "id": 410,
+    "sentence": "Keep going for one mile.",
+    "translation": "به اندازه یک مایل ادامه دهید.",
+    "image": "theme_12",
+    "audio": "audio_410.mp3"
+  },
+  {
+    "id": 411,
+    "sentence": "The building is tall.",
+    "translation": "ساختمان بلند است.",
+    "image": "theme_12",
+    "audio": "audio_411.mp3"
+  },
+  {
+    "id": 412,
+    "sentence": "It is on the second floor.",
+    "translation": "در طبقه دوم است.",
+    "image": "theme_12",
+    "audio": "audio_412.mp3"
+  },
+  {
+    "id": 413,
+    "sentence": "Where is the entrance?",
+    "translation": "ورودی کجاست؟",
+    "image": "theme_12",
+    "audio": "audio_413.mp3"
+  },
+  {
+    "id": 414,
+    "sentence": "Where is the exit?",
+    "translation": "خروجی کجاست؟",
+    "image": "theme_12",
+    "audio": "audio_414.mp3"
+  },
+  {
+    "id": 415,
+    "sentence": "Can you show me the way?",
+    "translation": "می‌توانید راه را به من نشان دهید؟",
+    "image": "theme_12",
+    "audio": "audio_415.mp3"
+  },
+  {
+    "id": 416,
+    "sentence": "It's around the corner.",
+    "translation": "دور همین پیچ است.",
+    "image": "theme_12",
+    "audio": "audio_416.mp3"
+  },
+  {
+    "id": 417,
+    "sentence": "Go up the stairs.",
+    "translation": "از پله‌ها بالا بروید.",
+    "image": "theme_12",
+    "audio": "audio_417.mp3"
+  },
+  {
+    "id": 418,
+    "sentence": "Go down the escalator.",
+    "translation": "از پله برقی پایین بروید.",
+    "image": "theme_12",
+    "audio": "audio_418.mp3"
+  },
+  {
+    "id": 419,
+    "sentence": "The hotel is on the highway.",
+    "translation": "هتل در بزرگراه قرار دارد.",
+    "image": "theme_12",
+    "audio": "audio_419.mp3"
+  },
+  {
+    "id": 420,
+    "sentence": "Thank you for the directions.",
+    "translation": "ممنون بابت آدرس و راهنمایی.",
+    "image": "theme_12",
+    "audio": "audio_420.mp3"
+  },
+  {
+    "id": 421,
+    "sentence": "I like reading books.",
+    "translation": "من خواندن کتاب را دوست دارم.",
+    "image": "theme_13",
+    "audio": "audio_421.mp3"
+  },
+  {
+    "id": 422,
+    "sentence": "What are your hobbies?",
+    "translation": "سرگرمی‌های شما چیست؟",
+    "image": "theme_13",
+    "audio": "audio_422.mp3"
+  },
+  {
+    "id": 423,
+    "sentence": "I love playing football.",
+    "translation": "عاشق بازی فوتبال هستم.",
+    "image": "theme_13",
+    "audio": "audio_423.mp3"
+  },
+  {
+    "id": 424,
+    "sentence": "Do you play any sports?",
+    "translation": "آیا ورزشی انجام می‌دهید؟",
+    "image": "theme_13",
+    "audio": "audio_424.mp3"
+  },
+  {
+    "id": 425,
+    "sentence": "I practice yoga every morning.",
+    "translation": "من هر صبح یوگا تمرین می‌کنم.",
+    "image": "theme_13",
+    "audio": "audio_425.mp3"
+  },
+  {
+    "id": 426,
+    "sentence": "I enjoy swimming in summer.",
+    "translation": "از شنا در تابستان لذت می‌برم.",
+    "image": "theme_13",
+    "audio": "audio_426.mp3"
+  },
+  {
+    "id": 427,
+    "sentence": "Let's play tennis this weekend.",
+    "translation": "بیا این آخر هفته تنیس بازی کنیم.",
+    "image": "theme_13",
+    "audio": "audio_427.mp3"
+  },
+  {
+    "id": 428,
+    "sentence": "I like listening to music.",
+    "translation": "شنیدن موسیقی را دوست دارم.",
+    "image": "theme_13",
+    "audio": "audio_428.mp3"
+  },
+  {
+    "id": 429,
+    "sentence": "My hobby is photography.",
+    "translation": "سرگرمی من عکاسی است.",
+    "image": "theme_13",
+    "audio": "audio_429.mp3"
+  },
+  {
+    "id": 430,
+    "sentence": "She plays the piano beautifully.",
+    "translation": "او پیانو را به زیبایی می‌نوازد.",
+    "image": "theme_13",
+    "audio": "audio_430.mp3"
+  },
+  {
+    "id": 431,
+    "sentence": "I love watching movies.",
+    "translation": "عاشق تماشای فیلم هستم.",
+    "image": "theme_13",
+    "audio": "audio_431.mp3"
+  },
+  {
+    "id": 432,
+    "sentence": "We went hiking in mountains.",
+    "translation": "ما در کوهستان به کوهنوردی رفتیم.",
+    "image": "theme_13",
+    "audio": "audio_432.mp3"
+  },
+  {
+    "id": 433,
+    "sentence": "Who is your favorite team?",
+    "translation": "تیم مورد علاقه شما کیست؟",
+    "image": "theme_13",
+    "audio": "audio_433.mp3"
+  },
+  {
+    "id": 434,
+    "sentence": "We won the match yesterday.",
+    "translation": "ما دیروز مسابقه را بردیم.",
+    "image": "theme_13",
+    "audio": "audio_434.mp3"
+  },
+  {
+    "id": 435,
+    "sentence": "I go running in the park.",
+    "translation": "من در پارک به دویدن می‌روم.",
+    "image": "theme_13",
+    "audio": "audio_435.mp3"
+  },
+  {
+    "id": 436,
+    "sentence": "Do you paint or draw?",
+    "translation": "آیا نقاشی می‌کشید یا طراحی می‌کنید؟",
+    "image": "theme_13",
+    "audio": "audio_436.mp3"
+  },
+  {
+    "id": 437,
+    "sentence": "I am learning how to cook.",
+    "translation": "دارم آشپزی یاد می‌گیرم.",
+    "image": "theme_13",
+    "audio": "audio_437.mp3"
+  },
+  {
+    "id": 438,
+    "sentence": "He is a professional runner.",
+    "translation": "او یک دونده حرفه‌ای است.",
+    "image": "theme_13",
+    "audio": "audio_438.mp3"
+  },
+  {
+    "id": 439,
+    "sentence": "We love camping in nature.",
+    "translation": "ما عاشق کمپ زدن در طبیعت هستیم.",
+    "image": "theme_13",
+    "audio": "audio_439.mp3"
+  },
+  {
+    "id": 440,
+    "sentence": "What kind of music do you like?",
+    "translation": "چه نوع موسیقی‌ای دوست داری؟",
+    "image": "theme_13",
+    "audio": "audio_440.mp3"
+  },
+  {
+    "id": 441,
+    "sentence": "I enjoy gardening at home.",
+    "translation": "از باغبانی در خانه لذت می‌برم.",
+    "image": "theme_13",
+    "audio": "audio_441.mp3"
+  },
+  {
+    "id": 442,
+    "sentence": "He collects old coins.",
+    "translation": "او سکه‌های قدیمی جمع‌آوری می‌کند.",
+    "image": "theme_13",
+    "audio": "audio_442.mp3"
+  },
+  {
+    "id": 443,
+    "sentence": "Let's go to the gym.",
+    "translation": "بیا به باشگاه ورزشی برویم.",
+    "image": "theme_13",
+    "audio": "audio_443.mp3"
+  },
+  {
+    "id": 444,
+    "sentence": "The stadium was full.",
+    "translation": "استادیوم پر بود.",
+    "image": "theme_13",
+    "audio": "audio_444.mp3"
+  },
+  {
+    "id": 445,
+    "sentence": "I like to play video games.",
+    "translation": "بازی‌های ویدئویی را دوست دارم.",
+    "image": "theme_13",
+    "audio": "audio_445.mp3"
+  },
+  {
+    "id": 446,
+    "sentence": "Are you interested in chess?",
+    "translation": "آیا به شطرنج علاقه داری؟",
+    "image": "theme_13",
+    "audio": "audio_446.mp3"
+  },
+  {
+    "id": 447,
+    "sentence": "I take a drawing class.",
+    "translation": "من کلاس طراحی می‌روم.",
+    "image": "theme_13",
+    "audio": "audio_447.mp3"
+  },
+  {
+    "id": 448,
+    "sentence": "Our team lost the game.",
+    "translation": "تیم ما بازی را باخت.",
+    "image": "theme_13",
+    "audio": "audio_448.mp3"
+  },
+  {
+    "id": 449,
+    "sentence": "It is a healthy habit.",
+    "translation": "این یک عادت سالم است.",
+    "image": "theme_13",
+    "audio": "audio_449.mp3"
+  },
+  {
+    "id": 450,
+    "sentence": "I love traveling and writing.",
+    "translation": "عاشق سفر کردن و نوشتن هستم.",
+    "image": "theme_13",
+    "audio": "audio_450.mp3"
+  },
+  {
+    "id": 451,
+    "sentence": "Do you sing in a choir?",
+    "translation": "آیا در گروه کر آواز می‌خوانی؟",
+    "image": "theme_13",
+    "audio": "audio_451.mp3"
+  },
+  {
+    "id": 452,
+    "sentence": "She is good at dancing.",
+    "translation": "او در رقصیدن مهارت دارد.",
+    "image": "theme_13",
+    "audio": "audio_452.mp3"
+  },
+  {
+    "id": 453,
+    "sentence": "I spend my free time reading.",
+    "translation": "اوقات فراغتم را با خواندن می‌گذرانم.",
+    "image": "theme_13",
+    "audio": "audio_453.mp3"
+  },
+  {
+    "id": 454,
+    "sentence": "Sports keep us fit.",
+    "translation": "ورزش ما را خوش‌اندام نگه می‌دارد.",
+    "image": "theme_13",
+    "audio": "audio_454.mp3"
+  },
+  {
+    "id": 455,
+    "sentence": "This game is very exciting.",
+    "translation": "این بازی بسیار هیجان‌انگیز است.",
+    "image": "theme_13",
+    "audio": "audio_455.mp3"
+  },
+  {
+    "id": 456,
+    "sentence": "I don't feel well today.",
+    "translation": "امروز حال خوبی ندارم.",
+    "image": "theme_14",
+    "audio": "audio_456.mp3"
+  },
+  {
+    "id": 457,
+    "sentence": "I need to see a doctor.",
+    "translation": "باید یک پزشک را ببینم.",
+    "image": "theme_14",
+    "audio": "audio_457.mp3"
+  },
+  {
+    "id": 458,
+    "sentence": "Where is the pharmacy?",
+    "translation": "داروخانه کجاست؟",
+    "image": "theme_14",
+    "audio": "audio_458.mp3"
+  },
+  {
+    "id": 459,
+    "sentence": "I have a bad headache.",
+    "translation": "سردرد شدیدی دارم.",
+    "image": "theme_14",
+    "audio": "audio_459.mp3"
+  },
+  {
+    "id": 460,
+    "sentence": "Take this medicine twice a day.",
+    "translation": "این دارو را دو بار در روز مصرف کنید.",
+    "image": "theme_14",
+    "audio": "audio_460.mp3"
+  },
+  {
+    "id": 461,
+    "sentence": "Drink plenty of water.",
+    "translation": "آب زیادی بنوشید.",
+    "image": "theme_14",
+    "audio": "audio_461.mp3"
+  },
+  {
+    "id": 462,
+    "sentence": "I feel dizzy.",
+    "translation": "سرگیجه دارم.",
+    "image": "theme_14",
+    "audio": "audio_462.mp3"
+  },
+  {
+    "id": 463,
+    "sentence": "Are you allergic to anything?",
+    "translation": "آیا به چیزی حساسیت دارید؟",
+    "image": "theme_14",
+    "audio": "audio_463.mp3"
+  },
+  {
+    "id": 464,
+    "sentence": "I have a high fever.",
+    "translation": "تب بالایی دارم.",
+    "image": "theme_14",
+    "audio": "audio_464.mp3"
+  },
+  {
+    "id": 465,
+    "sentence": "Where is the hospital?",
+    "translation": "بیمارستان کجاست؟",
+    "image": "theme_14",
+    "audio": "audio_465.mp3"
+  },
+  {
+    "id": 466,
+    "sentence": "Get some rest today.",
+    "translation": "امروز کمی استراحت کنید.",
+    "image": "theme_14",
+    "audio": "audio_466.mp3"
+  },
+  {
+    "id": 467,
+    "sentence": "I have a sore throat.",
+    "translation": "گلودرد دارم.",
+    "image": "theme_14",
+    "audio": "audio_467.mp3"
+  },
+  {
+    "id": 468,
+    "sentence": "My stomach hurts.",
+    "translation": "شکمم درد می‌کند.",
+    "image": "theme_14",
+    "audio": "audio_468.mp3"
+  },
+  {
+    "id": 469,
+    "sentence": "Do you need emergency help?",
+    "translation": "آیا به کمک اضطراری نیاز داری؟",
+    "image": "theme_14",
+    "audio": "audio_469.mp3"
+  },
+  {
+    "id": 470,
+    "sentence": "I hope you feel better.",
+    "translation": "امیدوارم بهتر شوی.",
+    "image": "theme_14",
+    "audio": "audio_470.mp3"
+  },
+  {
+    "id": 471,
+    "sentence": "The clinic is open now.",
+    "translation": "کلینیک در حال حاضر باز است.",
+    "image": "theme_14",
+    "audio": "audio_471.mp3"
+  },
+  {
+    "id": 472,
+    "sentence": "I have a dentist appointment.",
+    "translation": "نوبت دندان‌پزشکی دارم.",
+    "image": "theme_14",
+    "audio": "audio_472.mp3"
+  },
+  {
+    "id": 473,
+    "sentence": "You need to exercise regularly.",
+    "translation": "باید به طور منظم ورزش کنید.",
+    "image": "theme_14",
+    "audio": "audio_473.mp3"
+  },
+  {
+    "id": 474,
+    "sentence": "Is it a serious illness?",
+    "translation": "آیا بیماری جدی‌ای است؟",
+    "image": "theme_14",
+    "audio": "audio_474.mp3"
+  },
+  {
+    "id": 475,
+    "sentence": "I need a prescription.",
+    "translation": "به نسخه پزشک نیاز دارم.",
+    "image": "theme_14",
+    "audio": "audio_475.mp3"
+  },
+  {
+    "id": 476,
+    "sentence": "I am on a healthy diet.",
+    "translation": "رژیم غذایی سالمی دارم.",
+    "image": "theme_14",
+    "audio": "audio_476.mp3"
+  },
+  {
+    "id": 477,
+    "sentence": "Wash your hands frequently.",
+    "translation": "دست‌هایتان را مرتب بشویید.",
+    "image": "theme_14",
+    "audio": "audio_477.mp3"
+  },
+  {
+    "id": 478,
+    "sentence": "My blood pressure is normal.",
+    "translation": "فشار خون من نرمال است.",
+    "image": "theme_14",
+    "audio": "audio_478.mp3"
+  },
+  {
+    "id": 479,
+    "sentence": "Do you have insurance?",
+    "translation": "آیا بیمه دارید؟",
+    "image": "theme_14",
+    "audio": "audio_479.mp3"
+  },
+  {
+    "id": 480,
+    "sentence": "I hurt my ankle yesterday.",
+    "translation": "دیروز مچم آسیب دید.",
+    "image": "theme_14",
+    "audio": "audio_480.mp3"
+  },
+  {
+    "id": 481,
+    "sentence": "She is pregnant.",
+    "translation": "او باردار است.",
+    "image": "theme_14",
+    "audio": "audio_481.mp3"
+  },
+  {
+    "id": 482,
+    "sentence": "He is in good health.",
+    "translation": "او در سلامت کامل است.",
+    "image": "theme_14",
+    "audio": "audio_482.mp3"
+  },
+  {
+    "id": 483,
+    "sentence": "The doctor was very caring.",
+    "translation": "پزشک بسیار دلسوز بود.",
+    "image": "theme_14",
+    "audio": "audio_483.mp3"
+  },
+  {
+    "id": 484,
+    "sentence": "Take a deep breath.",
+    "translation": "یک نفس عمیق بکشید.",
+    "image": "theme_14",
+    "audio": "audio_484.mp3"
+  },
+  {
+    "id": 485,
+    "sentence": "I need some pain relievers.",
+    "translation": "به چند مسکن نیاز دارم.",
+    "image": "theme_14",
+    "audio": "audio_485.mp3"
+  },
+  {
+    "id": 486,
+    "sentence": "You look tired today.",
+    "translation": "امروز خسته به نظر می‌رسی.",
+    "image": "theme_14",
+    "audio": "audio_486.mp3"
+  },
+  {
+    "id": 487,
+    "sentence": "Get well soon!",
+    "translation": "به زودی خوب شوی!",
+    "image": "theme_14",
+    "audio": "audio_487.mp3"
+  },
+  {
+    "id": 488,
+    "sentence": "I recovered from the flu.",
+    "translation": "من از آنفولانزا بهبود یافتم.",
+    "image": "theme_14",
+    "audio": "audio_488.mp3"
+  },
+  {
+    "id": 489,
+    "sentence": "Eat more fruits and vegetables.",
+    "translation": "میوه و سبزیجات بیشتری بخورید.",
+    "image": "theme_14",
+    "audio": "audio_489.mp3"
+  },
+  {
+    "id": 490,
+    "sentence": "Mental health is important.",
+    "translation": "سلامت روان بسیار مهم است.",
+    "image": "theme_14",
+    "audio": "audio_490.mp3"
+  },
+  {
+    "id": 491,
+    "sentence": "Help me, please!",
+    "translation": "لطفا به من کمک کنید!",
+    "image": "theme_15",
+    "audio": "audio_491.mp3"
+  },
+  {
+    "id": 492,
+    "sentence": "Call the police immediately!",
+    "translation": "فوراً با پلیس تماس بگیرید!",
+    "image": "theme_15",
+    "audio": "audio_492.mp3"
+  },
+  {
+    "id": 493,
+    "sentence": "Call an ambulance!",
+    "translation": "یک آمبولانس خبر کنید!",
+    "image": "theme_15",
+    "audio": "audio_493.mp3"
+  },
+  {
+    "id": 494,
+    "sentence": "There is a fire here!",
+    "translation": "اینجا آتش‌سوزی شده است!",
+    "image": "theme_15",
+    "audio": "audio_494.mp3"
+  },
+  {
+    "id": 495,
+    "sentence": "I lost my wallet.",
+    "translation": "من کیف پولم را گم کردم.",
+    "image": "theme_15",
+    "audio": "audio_495.mp3"
+  },
+  {
+    "id": 496,
+    "sentence": "Someone stole my bag.",
+    "translation": "یک نفر کیفم را دزدید.",
+    "image": "theme_15",
+    "audio": "audio_496.mp3"
+  },
+  {
+    "id": 497,
+    "sentence": "Where is the emergency exit?",
+    "translation": "خروجی اضطراری کجاست؟",
+    "image": "theme_15",
+    "audio": "audio_497.mp3"
+  },
+  {
+    "id": 498,
+    "sentence": "Are you hurt?",
+    "translation": "آیا صدمه دیده‌ای؟",
+    "image": "theme_15",
+    "audio": "audio_498.mp3"
+  },
+  {
+    "id": 499,
+    "sentence": "Watch out!",
+    "translation": "مراقب باش! / مواظب باش!",
+    "image": "theme_15",
+    "audio": "audio_499.mp3"
+  },
+  {
+    "id": 500,
+    "sentence": "Stop that man!",
+    "translation": "آن مرد را متوقف کنید!",
+    "image": "theme_15",
+    "audio": "audio_500.mp3"
+  },
+  {
+    "id": 501,
+    "sentence": "I need the embassy's number.",
+    "translation": "به شماره سفارت نیاز دارم.",
+    "image": "theme_15",
+    "audio": "audio_501.mp3"
+  },
+  {
+    "id": 502,
+    "sentence": "Where is the police station?",
+    "translation": "کلانتری کجاست؟",
+    "image": "theme_15",
+    "audio": "audio_502.mp3"
+  },
+  {
+    "id": 503,
+    "sentence": "I can't find my child.",
+    "translation": "نمی‌توانم فرزندم را پیدا کنم.",
+    "image": "theme_15",
+    "audio": "audio_503.mp3"
+  },
+  {
+    "id": 504,
+    "sentence": "Is everyone safe?",
+    "translation": "آیا همه جاشان امن است؟",
+    "image": "theme_15",
+    "audio": "audio_504.mp3"
+  },
+  {
+    "id": 505,
+    "sentence": "Don't panic.",
+    "translation": "وحشت نکنید / آرام باشید.",
+    "image": "theme_15",
+    "audio": "audio_505.mp3"
+  },
+  {
+    "id": 506,
+    "sentence": "Please stay calm.",
+    "translation": "لطفا آرامش خود را حفظ کنید.",
+    "image": "theme_15",
+    "audio": "audio_506.mp3"
+  },
+  {
+    "id": 507,
+    "sentence": "The building is collapsing.",
+    "translation": "ساختمان در حال ریزش است.",
+    "image": "theme_15",
+    "audio": "audio_507.mp3"
+  },
+  {
+    "id": 508,
+    "sentence": "I had a car accident.",
+    "translation": "تصادف رانندگی کردم.",
+    "image": "theme_15",
+    "audio": "audio_508.mp3"
+  },
+  {
+    "id": 509,
+    "sentence": "Where is the safety alarm?",
+    "translation": "زنگ هشدار ایمنی کجاست؟",
+    "image": "theme_15",
+    "audio": "audio_509.mp3"
+  },
+  {
+    "id": 510,
+    "sentence": "The brakes are not working.",
+    "translation": "ترمزها کار نمی‌کنند.",
+    "image": "theme_15",
+    "audio": "audio_510.mp3"
+  },
+  {
+    "id": 511,
+    "sentence": "He is unconscious.",
+    "translation": "او بیهوش است.",
+    "image": "theme_15",
+    "audio": "audio_511.mp3"
+  },
+  {
+    "id": 512,
+    "sentence": "She is bleeding.",
+    "translation": "او در حال خون‌ریزی است.",
+    "image": "theme_15",
+    "audio": "audio_512.mp3"
+  },
+  {
+    "id": 513,
+    "sentence": "I need a first aid kit.",
+    "translation": "به جعبه کمک‌های اولیه نیاز دارم.",
+    "image": "theme_15",
+    "audio": "audio_513.mp3"
+  },
+  {
+    "id": 514,
+    "sentence": "Lock all the doors.",
+    "translation": "همه درها را قفل کنید.",
+    "image": "theme_15",
+    "audio": "audio_514.mp3"
+  },
+  {
+    "id": 515,
+    "sentence": "The electricity is cut off.",
+    "translation": "برق قطع شده است.",
+    "image": "theme_15",
+    "audio": "audio_515.mp3"
+  },
+  {
+    "id": 516,
+    "sentence": "Is there a telephone here?",
+    "translation": "آیا اینجا تلفن هست؟",
+    "image": "theme_15",
+    "audio": "audio_516.mp3"
+  },
+  {
+    "id": 517,
+    "sentence": "I can't breathe.",
+    "translation": "نمی‌توانم نفس بکشم.",
+    "image": "theme_15",
+    "audio": "audio_517.mp3"
+  },
+  {
+    "id": 518,
+    "sentence": "Get out of here!",
+    "translation": "از اینجا برو بیرون!",
+    "image": "theme_15",
+    "audio": "audio_518.mp3"
+  },
+  {
+    "id": 519,
+    "sentence": "Follow the emergency instructions.",
+    "translation": "دستورالعمل‌های اضطراری را دنبال کنید.",
+    "image": "theme_15",
+    "audio": "audio_519.mp3"
+  },
+  {
+    "id": 520,
+    "sentence": "We are stuck in the elevator.",
+    "translation": "ما در آسانسور گیر کرده‌ایم.",
+    "image": "theme_15",
+    "audio": "audio_520.mp3"
+  },
+  {
+    "id": 521,
+    "sentence": "Keep away from the fire.",
+    "translation": "از آتش دوری کنید.",
+    "image": "theme_15",
+    "audio": "audio_521.mp3"
+  },
+  {
+    "id": 522,
+    "sentence": "It is an urgent matter.",
+    "translation": "این یک موضوع فوری است.",
+    "image": "theme_15",
+    "audio": "audio_522.mp3"
+  },
+  {
+    "id": 523,
+    "sentence": "I need legal assistance.",
+    "translation": "به کمک حقوقی نیاز دارم.",
+    "image": "theme_15",
+    "audio": "audio_523.mp3"
+  },
+  {
+    "id": 524,
+    "sentence": "Who is in charge here?",
+    "translation": "چه کسی اینجا مسئول است؟",
+    "image": "theme_15",
+    "audio": "audio_524.mp3"
+  },
+  {
+    "id": 525,
+    "sentence": "We need immediate help.",
+    "translation": "ما به کمک فوری نیاز داریم.",
+    "image": "theme_15",
+    "audio": "audio_525.mp3"
+  },
+  {
+    "id": 526,
+    "sentence": "I am so happy today.",
+    "translation": "من امروز خیلی خوشحال هستم.",
+    "image": "theme_16",
+    "audio": "audio_526.mp3"
+  },
+  {
+    "id": 527,
+    "sentence": "Why are you sad?",
+    "translation": "چرا غمگینی؟",
+    "image": "theme_16",
+    "audio": "audio_527.mp3"
+  },
+  {
+    "id": 528,
+    "sentence": "I feel very tired.",
+    "translation": "خیلی احساس خستگی می‌کنم.",
+    "image": "theme_16",
+    "audio": "audio_528.mp3"
+  },
+  {
+    "id": 529,
+    "sentence": "Are you angry with me?",
+    "translation": "آیا از دست من عصبانی هستی؟",
+    "image": "theme_16",
+    "audio": "audio_529.mp3"
+  },
+  {
+    "id": 530,
+    "sentence": "I am surprised to hear that.",
+    "translation": "از شنیدن آن شگفت‌زده شدم.",
+    "image": "theme_16",
+    "audio": "audio_530.mp3"
+  },
+  {
+    "id": 531,
+    "sentence": "In my opinion, this is good.",
+    "translation": "به نظر من این کار خوبی است.",
+    "image": "theme_16",
+    "audio": "audio_531.mp3"
+  },
+  {
+    "id": 532,
+    "sentence": "I completely agree with you.",
+    "translation": "من کاملاً با شما موافقم.",
+    "image": "theme_16",
+    "audio": "audio_532.mp3"
+  },
+  {
+    "id": 533,
+    "sentence": "I disagree with this plan.",
+    "translation": "من با این طرح مخالفم.",
+    "image": "theme_16",
+    "audio": "audio_533.mp3"
+  },
+  {
+    "id": 534,
+    "sentence": "Don't worry about it.",
+    "translation": "نگرانش نباش.",
+    "image": "theme_16",
+    "audio": "audio_534.mp3"
+  },
+  {
+    "id": 535,
+    "sentence": "I am excited about the trip.",
+    "translation": "درباره سفر هیجان‌زده‌ام.",
+    "image": "theme_16",
+    "audio": "audio_535.mp3"
+  },
+  {
+    "id": 536,
+    "sentence": "I feel bored today.",
+    "translation": "امروز حوصله‌ام سر رفته است.",
+    "image": "theme_16",
+    "audio": "audio_536.mp3"
+  },
+  {
+    "id": 537,
+    "sentence": "That is an interesting idea.",
+    "translation": "آن ایده جالبی است.",
+    "image": "theme_16",
+    "audio": "audio_537.mp3"
+  },
+  {
+    "id": 538,
+    "sentence": "I am proud of you.",
+    "translation": "به تو افتخار می‌کنم.",
+    "image": "theme_16",
+    "audio": "audio_538.mp3"
+  },
+  {
+    "id": 539,
+    "sentence": "I don't care.",
+    "translation": "برام مهم نیست / اهمیتی نمی‌دم.",
+    "image": "theme_16",
+    "audio": "audio_539.mp3"
+  },
+  {
+    "id": 540,
+    "sentence": "He is very confident.",
+    "translation": "او بسیار با اعتماد به نفس است.",
+    "image": "theme_16",
+    "audio": "audio_540.mp3"
+  },
+  {
+    "id": 541,
+    "sentence": "I am afraid of dark.",
+    "translation": "من از تاریکی می‌ترسم.",
+    "image": "theme_16",
+    "audio": "audio_541.mp3"
+  },
+  {
+    "id": 542,
+    "sentence": "This is my honest opinion.",
+    "translation": "این نظر صادقانه من است.",
+    "image": "theme_16",
+    "audio": "audio_542.mp3"
+  },
+  {
+    "id": 543,
+    "sentence": "I appreciate your kindness.",
+    "translation": "از مهربانی شما قدردانی می‌کنم.",
+    "image": "theme_16",
+    "audio": "audio_543.mp3"
+  },
+  {
+    "id": 544,
+    "sentence": "She felt nervous before exam.",
+    "translation": "او قبل از امتحان استرس داشت.",
+    "image": "theme_16",
+    "audio": "audio_544.mp3"
+  },
+  {
+    "id": 545,
+    "sentence": "I am confused about this.",
+    "translation": "درباره این موضوع گیج شده‌ام.",
+    "image": "theme_16",
+    "audio": "audio_545.mp3"
+  },
+  {
+    "id": 546,
+    "sentence": "It was a huge disappointment.",
+    "translation": "یک ناامیدی بزرگ بود.",
+    "image": "theme_16",
+    "audio": "audio_546.mp3"
+  },
+  {
+    "id": 547,
+    "sentence": "I love this color.",
+    "translation": "من عاشق این رنگ هستم.",
+    "image": "theme_16",
+    "audio": "audio_547.mp3"
+  },
+  {
+    "id": 548,
+    "sentence": "I hate waiting in line.",
+    "translation": "من از منتظر ماندن در صف متنفرم.",
+    "image": "theme_16",
+    "audio": "audio_548.mp3"
+  },
+  {
+    "id": 549,
+    "sentence": "What do you think about this?",
+    "translation": "درباره این چه فکر می‌کنی؟",
+    "image": "theme_16",
+    "audio": "audio_549.mp3"
+  },
+  {
+    "id": 550,
+    "sentence": "I have a good feeling.",
+    "translation": "حس خوبی دارم.",
+    "image": "theme_16",
+    "audio": "audio_550.mp3"
+  },
+  {
+    "id": 551,
+    "sentence": "I don't trust him.",
+    "translation": "من به او اعتماد ندارم.",
+    "image": "theme_16",
+    "audio": "audio_551.mp3"
+  },
+  {
+    "id": 552,
+    "sentence": "Be hopeful for the future.",
+    "translation": "به آینده امیدوار باش.",
+    "image": "theme_16",
+    "audio": "audio_552.mp3"
+  },
+  {
+    "id": 553,
+    "sentence": "It is a great relief.",
+    "translation": "این یک تسکین بزرگ است.",
+    "image": "theme_16",
+    "audio": "audio_553.mp3"
+  },
+  {
+    "id": 554,
+    "sentence": "That sounds awesome!",
+    "translation": "عالی به نظر می‌رسه!",
+    "image": "theme_16",
+    "audio": "audio_554.mp3"
+  },
+  {
+    "id": 555,
+    "sentence": "I feel lonely sometimes.",
+    "translation": "گاهی احساس تنهایی می‌کنم.",
+    "image": "theme_16",
+    "audio": "audio_555.mp3"
+  },
+  {
+    "id": 556,
+    "sentence": "She was very upset.",
+    "translation": "او خیلی ناراحت بود.",
+    "image": "theme_16",
+    "audio": "audio_556.mp3"
+  },
+  {
+    "id": 557,
+    "sentence": "I respect your choice.",
+    "translation": "من به انتخاب شما احترام می‌گذارم.",
+    "image": "theme_16",
+    "audio": "audio_557.mp3"
+  },
+  {
+    "id": 558,
+    "sentence": "No offense intended.",
+    "translation": "قصدم بی‌احترامی نبود.",
+    "image": "theme_16",
+    "audio": "audio_558.mp3"
+  },
+  {
+    "id": 559,
+    "sentence": "You can count on me.",
+    "translation": "می‌توانی روی من حساب کنی.",
+    "image": "theme_16",
+    "audio": "audio_559.mp3"
+  },
+  {
+    "id": 560,
+    "sentence": "It's hard to believe.",
+    "translation": "باورش سخت است.",
+    "image": "theme_16",
+    "audio": "audio_560.mp3"
+  },
+  {
+    "id": 561,
+    "sentence": "What is the Wi-Fi password?",
+    "translation": "رمز وای‌فای چیست؟",
+    "image": "theme_17",
+    "audio": "audio_561.mp3"
+  },
+  {
+    "id": 562,
+    "sentence": "My computer is very fast.",
+    "translation": "رایانه من بسیار سریع است.",
+    "image": "theme_17",
+    "audio": "audio_562.mp3"
+  },
+  {
+    "id": 563,
+    "sentence": "I need to charge my phone.",
+    "translation": "باید گوشی‌ام را شارژ کنم.",
+    "image": "theme_17",
+    "audio": "audio_563.mp3"
+  },
+  {
+    "id": 564,
+    "sentence": "The internet connection is slow.",
+    "translation": "اتصال اینترنت ضعیف (کند) است.",
+    "image": "theme_17",
+    "audio": "audio_564.mp3"
+  },
+  {
+    "id": 565,
+    "sentence": "I sent you a message.",
+    "translation": "من برایت پیام فرستادم.",
+    "image": "theme_17",
+    "audio": "audio_565.mp3"
+  },
+  {
+    "id": 566,
+    "sentence": "Where is my laptop charger?",
+    "translation": "شارژر لپ‌تاپ من کجاست؟",
+    "image": "theme_17",
+    "audio": "audio_566.mp3"
+  },
+  {
+    "id": 567,
+    "sentence": "Download this application, please.",
+    "translation": "لطفا این برنامه را دانلود کنید.",
+    "image": "theme_17",
+    "audio": "audio_567.mp3"
+  },
+  {
+    "id": 568,
+    "sentence": "I need to check my emails.",
+    "translation": "باید ایمیل‌هایم را بررسی کنم.",
+    "image": "theme_17",
+    "audio": "audio_568.mp3"
+  },
+  {
+    "id": 569,
+    "sentence": "The screen is broken.",
+    "translation": "صفحه نمایش شکسته است.",
+    "image": "theme_17",
+    "audio": "audio_569.mp3"
+  },
+  {
+    "id": 570,
+    "sentence": "How do I turn this on?",
+    "translation": "چطور این را روشن کنم؟",
+    "image": "theme_17",
+    "audio": "audio_570.mp3"
+  },
+  {
+    "id": 571,
+    "sentence": "Can you help me install this?",
+    "translation": "می‌توانی کمکم کنی این را نصب کنم؟",
+    "image": "theme_17",
+    "audio": "audio_571.mp3"
+  },
+  {
+    "id": 572,
+    "sentence": "My phone is out of battery.",
+    "translation": "باتری گوشی‌ام تمام شده است.",
+    "image": "theme_17",
+    "audio": "audio_572.mp3"
+  },
+  {
+    "id": 573,
+    "sentence": "Restart your device, please.",
+    "translation": "لطفا دستگاه خود را راه‌اندازی مجدد کنید.",
+    "image": "theme_17",
+    "audio": "audio_573.mp3"
+  },
+  {
+    "id": 574,
+    "sentence": "I have no signal here.",
+    "translation": "اینجا آنتن ندارم.",
+    "image": "theme_17",
+    "audio": "audio_574.mp3"
+  },
+  {
+    "id": 575,
+    "sentence": "Is this website secure?",
+    "translation": "آیا این وب‌سایت امن است؟",
+    "image": "theme_17",
+    "audio": "audio_575.mp3"
+  },
+  {
+    "id": 576,
+    "sentence": "Create a strong password.",
+    "translation": "یک رمز عبور قوی بسازید.",
+    "image": "theme_17",
+    "audio": "audio_576.mp3"
+  },
+  {
+    "id": 577,
+    "sentence": "I lost my data.",
+    "translation": "من داده‌هایم را از دست دادم.",
+    "image": "theme_17",
+    "audio": "audio_577.mp3"
+  },
+  {
+    "id": 578,
+    "sentence": "Can I connect to your hotspot?",
+    "translation": "می‌توانم به هات‌اسپات شما وصل شوم؟",
+    "image": "theme_17",
+    "audio": "audio_578.mp3"
+  },
+  {
+    "id": 579,
+    "sentence": "The file is too large.",
+    "translation": "فایل خیلی بزرگ است.",
+    "image": "theme_17",
+    "audio": "audio_579.mp3"
+  },
+  {
+    "id": 580,
+    "sentence": "Upload the photo here.",
+    "translation": "عکس را اینجا آپلود کنید.",
+    "image": "theme_17",
+    "audio": "audio_580.mp3"
+  },
+  {
+    "id": 581,
+    "sentence": "I am online now.",
+    "translation": "من الان آنلاین هستم.",
+    "image": "theme_17",
+    "audio": "audio_581.mp3"
+  },
+  {
+    "id": 582,
+    "sentence": "I blocked his account.",
+    "translation": "من حساب کاربری او را مسدود کردم.",
+    "image": "theme_17",
+    "audio": "audio_582.mp3"
+  },
+  {
+    "id": 583,
+    "sentence": "This software needs an update.",
+    "translation": "این نرم‌افزار به به‌روزرسانی نیاز دارد.",
+    "image": "theme_17",
+    "audio": "audio_583.mp3"
+  },
+  {
+    "id": 584,
+    "sentence": "The system crashed yesterday.",
+    "translation": "سیستم دیروز خراب شد.",
+    "image": "theme_17",
+    "audio": "audio_584.mp3"
+  },
+  {
+    "id": 585,
+    "sentence": "Search it on Google.",
+    "translation": "آن را در گوگل جستجو کن.",
+    "image": "theme_17",
+    "audio": "audio_585.mp3"
+  },
+  {
+    "id": 586,
+    "sentence": "Can you mute your microphone?",
+    "translation": "می‌توانی میکروفونت را قطع کنی؟",
+    "image": "theme_17",
+    "audio": "audio_586.mp3"
+  },
+  {
+    "id": 587,
+    "sentence": "My headphones are wired.",
+    "translation": "هدفون‌های من سیم‌دار هستند.",
+    "image": "theme_17",
+    "audio": "audio_587.mp3"
+  },
+  {
+    "id": 588,
+    "sentence": "I backed up my files.",
+    "translation": "من از فایل‌هایم پشتیبان گرفتم.",
+    "image": "theme_17",
+    "audio": "audio_588.mp3"
+  },
+  {
+    "id": 589,
+    "sentence": "Technology makes life easier.",
+    "translation": "تکنولوژی زندگی را آسان‌تر می‌کند.",
+    "image": "theme_17",
+    "audio": "audio_589.mp3"
+  },
+  {
+    "id": 590,
+    "sentence": "The speaker is loud.",
+    "translation": "بلندگو پرصدا است.",
+    "image": "theme_17",
+    "audio": "audio_590.mp3"
+  },
+  {
+    "id": 591,
+    "sentence": "This is a smart device.",
+    "translation": "این یک دستگاه هوشمند است.",
+    "image": "theme_17",
+    "audio": "audio_591.mp3"
+  },
+  {
+    "id": 592,
+    "sentence": "I bought a new tablet.",
+    "translation": "یک تبلت جدید خریدم.",
+    "image": "theme_17",
+    "audio": "audio_592.mp3"
+  },
+  {
+    "id": 593,
+    "sentence": "The database is secure.",
+    "translation": "دیتابیس امن است.",
+    "image": "theme_17",
+    "audio": "audio_593.mp3"
+  },
+  {
+    "id": 594,
+    "sentence": "I received a notification.",
+    "translation": "یک اعلان دریافت کردم.",
+    "image": "theme_17",
+    "audio": "audio_594.mp3"
+  },
+  {
+    "id": 595,
+    "sentence": "Check the link, please.",
+    "translation": "لطفا پیوند (لینک) را بررسی کنید.",
+    "image": "theme_17",
+    "audio": "audio_595.mp3"
+  },
+  {
+    "id": 596,
+    "sentence": "I like listening to pop music.",
+    "translation": "من گوش دادن به موسیقی پاپ را دوست دارم.",
+    "image": "theme_18",
+    "audio": "audio_596.mp3"
+  },
+  {
+    "id": 597,
+    "sentence": "She plays the violin.",
+    "translation": "او ویولن می‌نوازد.",
+    "image": "theme_18",
+    "audio": "audio_597.mp3"
+  },
+  {
+    "id": 598,
+    "sentence": "We went to an art gallery.",
+    "translation": "ما به یک گالری هنری رفتیم.",
+    "image": "theme_18",
+    "audio": "audio_598.mp3"
+  },
+  {
+    "id": 599,
+    "sentence": "This painting is magnificent.",
+    "translation": "این نقاشی باشکوه است.",
+    "image": "theme_18",
+    "audio": "audio_599.mp3"
+  },
+  {
+    "id": 600,
+    "sentence": "Who is the director of the movie?",
+    "translation": "کارگردان فیلم کیست؟",
+    "image": "theme_18",
+    "audio": "audio_600.mp3"
+  },
+  {
+    "id": 601,
+    "sentence": "The concert was crowded.",
+    "translation": "کنسرت شلوغ بود.",
+    "image": "theme_18",
+    "audio": "audio_601.mp3"
+  },
+  {
+    "id": 602,
+    "sentence": "I enjoy reading novels.",
+    "translation": "از خواندن رمان لذت می‌برم.",
+    "image": "theme_18",
+    "audio": "audio_602.mp3"
+  },
+  {
+    "id": 603,
+    "sentence": "He is a talented artist.",
+    "translation": "او هنرمند بااستعدادی است.",
+    "image": "theme_18",
+    "audio": "audio_603.mp3"
+  },
+  {
+    "id": 604,
+    "sentence": "What is your favorite film?",
+    "translation": "فیلم مورد علاقه شما چیست؟",
+    "image": "theme_18",
+    "audio": "audio_604.mp3"
+  },
+  {
+    "id": 605,
+    "sentence": "I write poems sometimes.",
+    "translation": "گاهی شعر می‌نویسم.",
+    "image": "theme_18",
+    "audio": "audio_605.mp3"
+  },
+  {
+    "id": 606,
+    "sentence": "The exhibition opens tomorrow.",
+    "translation": "نمایشگاه فردا افتتاح می‌شود.",
+    "image": "theme_18",
+    "audio": "audio_606.mp3"
+  },
+  {
+    "id": 607,
+    "sentence": "She loves taking photos.",
+    "translation": "او عاشق عکاسی کردن است.",
+    "image": "theme_18",
+    "audio": "audio_607.mp3"
+  },
+  {
+    "id": 608,
+    "sentence": "This song is very peaceful.",
+    "translation": "این آهنگ بسیار آرامش‌بخش است.",
+    "image": "theme_18",
+    "audio": "audio_608.mp3"
+  },
+  {
+    "id": 609,
+    "sentence": "He is a famous actor.",
+    "translation": "او بازیگر مشهوری است.",
+    "image": "theme_18",
+    "audio": "audio_609.mp3"
+  },
+  {
+    "id": 610,
+    "sentence": "We watched a documentary.",
+    "translation": "ما یک مستند تماشا کردیم.",
+    "image": "theme_18",
+    "audio": "audio_610.mp3"
+  },
+  {
+    "id": 611,
+    "sentence": "I want to learn guitar.",
+    "translation": "می‌خواهم گیتار یاد بگیرم.",
+    "image": "theme_18",
+    "audio": "audio_611.mp3"
+  },
+  {
+    "id": 612,
+    "sentence": "The museum has old statues.",
+    "translation": "موزه مجسمه‌های قدیمی دارد.",
+    "image": "theme_18",
+    "audio": "audio_612.mp3"
+  },
+  {
+    "id": 613,
+    "sentence": "I prefer classical music.",
+    "translation": "من موسیقی کلاسیک را ترجیح می‌دهم.",
+    "image": "theme_18",
+    "audio": "audio_613.mp3"
+  },
+  {
+    "id": 614,
+    "sentence": "This book is a bestseller.",
+    "translation": "این کتاب پرفروش‌ترین است.",
+    "image": "theme_18",
+    "audio": "audio_614.mp3"
+  },
+  {
+    "id": 615,
+    "sentence": "The theater was historic.",
+    "translation": "تئاتر تاریخی بود.",
+    "image": "theme_18",
+    "audio": "audio_615.mp3"
+  },
+  {
+    "id": 616,
+    "sentence": "Who sang this song?",
+    "translation": "چه کسی این آهنگ را خوانده است؟",
+    "image": "theme_18",
+    "audio": "audio_616.mp3"
+  },
+  {
+    "id": 617,
+    "sentence": "I read the news daily.",
+    "translation": "من روزانه اخبار را می‌خوانم.",
+    "image": "theme_18",
+    "audio": "audio_617.mp3"
+  },
+  {
+    "id": 618,
+    "sentence": "This sculpture is modern.",
+    "translation": "این مجسمه‌سازی مدرن است.",
+    "image": "theme_18",
+    "audio": "audio_618.mp3"
+  },
+  {
+    "id": 619,
+    "sentence": "She is studying design.",
+    "translation": "او در حال تحصیل در رشته طراحی است.",
+    "image": "theme_18",
+    "audio": "audio_619.mp3"
+  },
+  {
+    "id": 620,
+    "sentence": "I like romantic movies.",
+    "translation": "فیلم‌های عاشقانه را دوست دارم.",
+    "image": "theme_18",
+    "audio": "audio_620.mp3"
+  },
+  {
+    "id": 621,
+    "sentence": "The movie had a happy ending.",
+    "translation": "فیلم پایان خوشی داشت.",
+    "image": "theme_18",
+    "audio": "audio_621.mp3"
+  },
+  {
+    "id": 622,
+    "sentence": "He is a creative designer.",
+    "translation": "او طراح خلاقی است.",
+    "image": "theme_18",
+    "audio": "audio_622.mp3"
+  },
+  {
+    "id": 623,
+    "sentence": "What instrument do you play?",
+    "translation": "چه سازی می‌نوازی؟",
+    "image": "theme_18",
+    "audio": "audio_623.mp3"
+  },
+  {
+    "id": 624,
+    "sentence": "Art expresses emotions.",
+    "translation": "هنر احساسات را بیان می‌کند.",
+    "image": "theme_18",
+    "audio": "audio_624.mp3"
+  },
+  {
+    "id": 625,
+    "sentence": "This is a beautiful photograph.",
+    "translation": "این یک عکس زیبا است.",
+    "image": "theme_18",
+    "audio": "audio_625.mp3"
+  },
+  {
+    "id": 626,
+    "sentence": "The orchestra was amazing.",
+    "translation": "ارکستر شگفت‌انگیز بود.",
+    "image": "theme_18",
+    "audio": "audio_626.mp3"
+  },
+  {
+    "id": 627,
+    "sentence": "He acts in a drama.",
+    "translation": "او در یک درام نقش‌آفرینی می‌کند.",
+    "image": "theme_18",
+    "audio": "audio_627.mp3"
+  },
+  {
+    "id": 628,
+    "sentence": "I subscribe to this magazine.",
+    "translation": "من این مجله را مشترک شده‌ام.",
+    "image": "theme_18",
+    "audio": "audio_628.mp3"
+  },
+  {
+    "id": 629,
+    "sentence": "She painted a landscape.",
+    "translation": "او یک منظره را نقاشی کرد.",
+    "image": "theme_18",
+    "audio": "audio_629.mp3"
+  },
+  {
+    "id": 630,
+    "sentence": "The sound quality is great.",
+    "translation": "کیفیت صدا عالی است.",
+    "image": "theme_18",
+    "audio": "audio_630.mp3"
+  },
+  {
+    "id": 631,
+    "sentence": "The park is green.",
+    "translation": "پارک سرسبز است.",
+    "image": "theme_19",
+    "audio": "audio_631.mp3"
+  },
+  {
+    "id": 632,
+    "sentence": "We climbed a high mountain.",
+    "translation": "ما از یک کوه بلند بالا رفتیم.",
+    "image": "theme_19",
+    "audio": "audio_632.mp3"
+  },
+  {
+    "id": 633,
+    "sentence": "The ocean is vast.",
+    "translation": "اقیانوس پهناور است.",
+    "image": "theme_19",
+    "audio": "audio_633.mp3"
+  },
+  {
+    "id": 634,
+    "sentence": "I love walking in the forest.",
+    "translation": "پیاده‌روی در جنگل را دوست دارم.",
+    "image": "theme_19",
+    "audio": "audio_634.mp3"
+  },
+  {
+    "id": 635,
+    "sentence": "The river flows to the sea.",
+    "translation": "رودخانه به دریا می‌ریزد.",
+    "image": "theme_19",
+    "audio": "audio_635.mp3"
+  },
+  {
+    "id": 636,
+    "sentence": "Protect the environment.",
+    "translation": "از محیط زیست محافظت کنید.",
+    "image": "theme_19",
+    "audio": "audio_636.mp3"
+  },
+  {
+    "id": 637,
+    "sentence": "The air is very clean here.",
+    "translation": "اینجا هوا خیلی تمیز است.",
+    "image": "theme_19",
+    "audio": "audio_637.mp3"
+  },
+  {
+    "id": 638,
+    "sentence": "Look at that beautiful bird.",
+    "translation": "به آن پرنده زیبا نگاه کن.",
+    "image": "theme_19",
+    "audio": "audio_638.mp3"
+  },
+  {
+    "id": 639,
+    "sentence": "We should plant more trees.",
+    "translation": "باید درختان بیشتری بکاریم.",
+    "image": "theme_19",
+    "audio": "audio_639.mp3"
+  },
+  {
+    "id": 640,
+    "sentence": "The weather was perfect for hiking.",
+    "translation": "هوا برای کوهنوردی عالی بود.",
+    "image": "theme_19",
+    "audio": "audio_640.mp3"
+  },
+  {
+    "id": 641,
+    "sentence": "The stars are shining brightly.",
+    "translation": "ستاره‌ها به روشنی می‌درخشند.",
+    "image": "theme_19",
+    "audio": "audio_641.mp3"
+  },
+  {
+    "id": 642,
+    "sentence": "I love gardening outside.",
+    "translation": "عاشق باغبانی در بیرون از خانه هستم.",
+    "image": "theme_19",
+    "audio": "audio_642.mp3"
+  },
+  {
+    "id": 643,
+    "sentence": "The beach was very quiet.",
+    "translation": "ساحل بسیار ساکت بود.",
+    "image": "theme_19",
+    "audio": "audio_643.mp3"
+  },
+  {
+    "id": 644,
+    "sentence": "Earth is our only home.",
+    "translation": "زمین تنها خانه ما است.",
+    "image": "theme_19",
+    "audio": "audio_644.mp3"
+  },
+  {
+    "id": 645,
+    "sentence": "The waterfall was beautiful.",
+    "translation": "آبشار زیبا بود.",
+    "image": "theme_19",
+    "audio": "audio_645.mp3"
+  },
+  {
+    "id": 646,
+    "sentence": "There are many flowers in spring.",
+    "translation": "در بهار گل‌های زیادی وجود دارد.",
+    "image": "theme_19",
+    "audio": "audio_646.mp3"
+  },
+  {
+    "id": 647,
+    "sentence": "The leaves are green in summer.",
+    "translation": "برگ‌ها در تابستان سبز هستند.",
+    "image": "theme_19",
+    "audio": "audio_647.mp3"
+  },
+  {
+    "id": 648,
+    "sentence": "We saw a wild bear.",
+    "translation": "ما یک خرس وحشی دیدیم.",
+    "image": "theme_19",
+    "audio": "audio_648.mp3"
+  },
+  {
+    "id": 649,
+    "sentence": "Water conservation is necessary.",
+    "translation": "صرفه‌جویی در مصرف آب ضروری است.",
+    "image": "theme_19",
+    "audio": "audio_649.mp3"
+  },
+  {
+    "id": 650,
+    "sentence": "The lake is deep.",
+    "translation": "دریاچه عمیق است.",
+    "image": "theme_19",
+    "audio": "audio_650.mp3"
+  },
+  {
+    "id": 651,
+    "sentence": "Pollution is a major problem.",
+    "translation": "آلودگی یک مشکل بزرگ است.",
+    "image": "theme_19",
+    "audio": "audio_651.mp3"
+  },
+  {
+    "id": 652,
+    "sentence": "The sun is very hot today.",
+    "translation": "امروز خورشید بسیار سوزان است.",
+    "image": "theme_19",
+    "audio": "audio_652.mp3"
+  },
+  {
+    "id": 653,
+    "sentence": "Nature heals our soul.",
+    "translation": "طبیعت روح ما را شفا می‌دهد.",
+    "image": "theme_19",
+    "audio": "audio_653.mp3"
+  },
+  {
+    "id": 654,
+    "sentence": "I saw a beautiful butterfly.",
+    "translation": "یک پروانه زیبا دیدم.",
+    "image": "theme_19",
+    "audio": "audio_654.mp3"
+  },
+  {
+    "id": 655,
+    "sentence": "Save energy at home.",
+    "translation": "در خانه در مصرف انرژی صرفه‌جویی کنید.",
+    "image": "theme_19",
+    "audio": "audio_655.mp3"
+  },
+  {
+    "id": 656,
+    "sentence": "The desert is dry and hot.",
+    "translation": "کویر خشک و گرم است.",
+    "image": "theme_19",
+    "audio": "audio_656.mp3"
+  },
+  {
+    "id": 657,
+    "sentence": "We must reduce plastic waste.",
+    "translation": "باید زباله‌های پلاستیکی را کاهش دهیم.",
+    "image": "theme_19",
+    "audio": "audio_657.mp3"
+  },
+  {
+    "id": 658,
+    "sentence": "The sky is full of clouds.",
+    "translation": "آسمان پر از ابر است.",
+    "image": "theme_19",
+    "audio": "audio_658.mp3"
+  },
+  {
+    "id": 659,
+    "sentence": "I love fresh mountain air.",
+    "translation": "عاشق هوای تازه کوهستان هستم.",
+    "image": "theme_19",
+    "audio": "audio_659.mp3"
+  },
+  {
+    "id": 660,
+    "sentence": "The valley was deep.",
+    "translation": "دره عمیق بود.",
+    "image": "theme_19",
+    "audio": "audio_660.mp3"
+  },
+  {
+    "id": 661,
+    "sentence": "Animals deserve respect.",
+    "translation": "حیوانات شایسته احترام هستند.",
+    "image": "theme_19",
+    "audio": "audio_661.mp3"
+  },
+  {
+    "id": 662,
+    "sentence": "The soil is fertile.",
+    "translation": "خاک حاصلخیز است.",
+    "image": "theme_19",
+    "audio": "audio_662.mp3"
+  },
+  {
+    "id": 663,
+    "sentence": "We sat under the shadow.",
+    "translation": "ما زیر سایه نشستیم.",
+    "image": "theme_19",
+    "audio": "audio_663.mp3"
+  },
+  {
+    "id": 664,
+    "sentence": "Recycling helps our planet.",
+    "translation": "بازیافت به سیاره ما کمک می‌کند.",
+    "image": "theme_19",
+    "audio": "audio_664.mp3"
+  },
+  {
+    "id": 665,
+    "sentence": "The sunrise was spectacular.",
+    "translation": "طلوع خورشید دیدنی بود.",
+    "image": "theme_19",
+    "audio": "audio_665.mp3"
+  },
+  {
+    "id": 666,
+    "sentence": "He is very tall and handsome.",
+    "translation": "او بسیار قدبلند و خوش‌تیپ است.",
+    "image": "theme_20",
+    "audio": "audio_666.mp3"
+  },
+  {
+    "id": 667,
+    "sentence": "She has beautiful blue eyes.",
+    "translation": "او چشم‌های آبی زیبایی دارد.",
+    "image": "theme_20",
+    "audio": "audio_667.mp3"
+  },
+  {
+    "id": 668,
+    "sentence": "My brother has curly brown hair.",
+    "translation": "برادرم موهای فرفری قهوه‌ای دارد.",
+    "image": "theme_20",
+    "audio": "audio_668.mp3"
+  },
+  {
+    "id": 669,
+    "sentence": "He is extremely kind and helpful.",
+    "translation": "او فوق‌العاده مهربان و کمک‌کار است.",
+    "image": "theme_20",
+    "audio": "audio_669.mp3"
+  },
+  {
+    "id": 670,
+    "sentence": "She is a very creative person.",
+    "translation": "او فرد بسیار خلاقی است.",
+    "image": "theme_20",
+    "audio": "audio_670.mp3"
+  },
+  {
+    "id": 671,
+    "sentence": "He has a friendly personality.",
+    "translation": "او شخصیت صمیمی‌ای دارد.",
+    "image": "theme_20",
+    "audio": "audio_671.mp3"
+  },
+  {
+    "id": 672,
+    "sentence": "Why are you so quiet today?",
+    "translation": "چرا امروز این‌قدر ساکتی؟",
+    "image": "theme_20",
+    "audio": "audio_672.mp3"
+  },
+  {
+    "id": 673,
+    "sentence": "He is hard-working and reliable.",
+    "translation": "او سخت‌کوش و قابل اعتماد است.",
+    "image": "theme_20",
+    "audio": "audio_673.mp3"
+  },
+  {
+    "id": 674,
+    "sentence": "She wears a beautiful dress.",
+    "translation": "او لباس زیبایی پوشیده است.",
+    "image": "theme_20",
+    "audio": "audio_674.mp3"
+  },
+  {
+    "id": 675,
+    "sentence": "He is always very polite.",
+    "translation": "او همیشه بسیار مودب است.",
+    "image": "theme_20",
+    "audio": "audio_675.mp3"
+  },
+  {
+    "id": 676,
+    "sentence": "Our teacher is very patient.",
+    "translation": "معلم ما بسیار باحوصله است.",
+    "image": "theme_20",
+    "audio": "audio_676.mp3"
+  },
+  {
+    "id": 677,
+    "sentence": "He has short black hair.",
+    "translation": "او موهای کوتاه مشکی دارد.",
+    "image": "theme_20",
+    "audio": "audio_677.mp3"
+  },
+  {
+    "id": 678,
+    "sentence": "She is thin and elegant.",
+    "translation": "او باریک‌اندام و شیک است.",
+    "image": "theme_20",
+    "audio": "audio_678.mp3"
+  },
+  {
+    "id": 679,
+    "sentence": "He wears glasses for reading.",
+    "translation": "او برای مطالعه عینک می‌زند.",
+    "image": "theme_20",
+    "audio": "audio_679.mp3"
+  },
+  {
+    "id": 680,
+    "sentence": "He is always cheerful and happy.",
+    "translation": "او همیشه بشاش و شاد است.",
+    "image": "theme_20",
+    "audio": "audio_680.mp3"
+  },
+  {
+    "id": 681,
+    "sentence": "She has a sweet smile.",
+    "translation": "او لبخند شیرینی دارد.",
+    "image": "theme_20",
+    "audio": "audio_681.mp3"
+  },
+  {
+    "id": 682,
+    "sentence": "He is a very honest businessman.",
+    "translation": "او تاجر بسیار صادقی است.",
+    "image": "theme_20",
+    "audio": "audio_682.mp3"
+  },
+  {
+    "id": 683,
+    "sentence": "Don't be lazy, stand up.",
+    "translation": "تنبلی نکن، بلند شو.",
+    "image": "theme_20",
+    "audio": "audio_683.mp3"
+  },
+  {
+    "id": 684,
+    "sentence": "She is brave and strong.",
+    "translation": "او شجاع و قوی است.",
+    "image": "theme_20",
+    "audio": "audio_684.mp3"
+  },
+  {
+    "id": 685,
+    "sentence": "He is smart and intelligent.",
+    "translation": "او باهوش و ذکی است.",
+    "image": "theme_20",
+    "audio": "audio_685.mp3"
+  },
+  {
+    "id": 686,
+    "sentence": "He has a round face.",
+    "translation": "او صورت گردی دارد.",
+    "image": "theme_20",
+    "audio": "audio_686.mp3"
+  },
+  {
+    "id": 687,
+    "sentence": "She is active in sports.",
+    "translation": "او در ورزش فعال است.",
+    "image": "theme_20",
+    "audio": "audio_687.mp3"
+  },
+  {
+    "id": 688,
+    "sentence": "My father is a wise man.",
+    "translation": "پدرم مرد عاقلی است.",
+    "image": "theme_20",
+    "audio": "audio_688.mp3"
+  },
+  {
+    "id": 689,
+    "sentence": "He is humorous and funny.",
+    "translation": "او شوخ‌طبع و خنده‌دار است.",
+    "image": "theme_20",
+    "audio": "audio_689.mp3"
+  },
+  {
+    "id": 690,
+    "sentence": "She behaves very maturely.",
+    "translation": "او رفتار بسیار پخته‌ای دارد.",
+    "image": "theme_20",
+    "audio": "audio_690.mp3"
+  },
+  {
+    "id": 691,
+    "sentence": "He looks young for his age.",
+    "translation": "او نسبت به سنش جوان به نظر می‌رسد.",
+    "image": "theme_20",
+    "audio": "audio_691.mp3"
+  },
+  {
+    "id": 692,
+    "sentence": "She is charming and attractive.",
+    "translation": "او دلربا و جذاب است.",
+    "image": "theme_20",
+    "audio": "audio_692.mp3"
+  },
+  {
+    "id": 693,
+    "sentence": "He has a beard and mustache.",
+    "translation": "او ریش و سبیل دارد.",
+    "image": "theme_20",
+    "audio": "audio_693.mp3"
+  },
+  {
+    "id": 694,
+    "sentence": "She is a generous woman.",
+    "translation": "او زن بخشنده‌ای است.",
+    "image": "theme_20",
+    "audio": "audio_694.mp3"
+  },
+  {
+    "id": 695,
+    "sentence": "Be kind to other people.",
+    "translation": "با دیگران مهربان باش.",
+    "image": "theme_20",
+    "audio": "audio_695.mp3"
+  },
+  {
+    "id": 696,
+    "sentence": "He is a serious boss.",
+    "translation": "او رئیس جدی‌ای است.",
+    "image": "theme_20",
+    "audio": "audio_696.mp3"
+  },
+  {
+    "id": 697,
+    "sentence": "She is sensitive and emotional.",
+    "translation": "او حساس و احساساتی است.",
+    "image": "theme_20",
+    "audio": "audio_697.mp3"
+  },
+  {
+    "id": 698,
+    "sentence": "He is very neat and clean.",
+    "translation": "او بسیار مرتب و تمیز است.",
+    "image": "theme_20",
+    "audio": "audio_698.mp3"
+  },
+  {
+    "id": 699,
+    "sentence": "She has a polite voice.",
+    "translation": "او صدای مؤدبی دارد.",
+    "image": "theme_20",
+    "audio": "audio_699.mp3"
+  },
+  {
+    "id": 700,
+    "sentence": "Appearance can be deceiving.",
+    "translation": "ظاهر می‌تواند فریبنده باشد.",
+    "image": "theme_20",
+    "audio": "audio_700.mp3"
+  },
+  {
+    "id": 701,
+    "sentence": "I look forward to our meeting.",
+    "translation": "من مشتاقانه منتظر جلسه خودمان هستم.",
+    "image": "theme_21",
+    "audio": "audio_701.mp3"
+  },
+  {
+    "id": 702,
+    "sentence": "Please find the attached document.",
+    "translation": "لطفاً سند پیوست‌شده را ملاحظه کنید.",
+    "image": "theme_21",
+    "audio": "audio_702.mp3"
+  },
+  {
+    "id": 703,
+    "sentence": "Thank you for your quick response.",
+    "translation": "از پاسخ سریع شما سپاسگزارم.",
+    "image": "theme_21",
+    "audio": "audio_703.mp3"
+  },
+  {
+    "id": 704,
+    "sentence": "I would like to propose a meeting.",
+    "translation": "مایلم پیشنهاد یک جلسه را بدهم.",
+    "image": "theme_21",
+    "audio": "audio_704.mp3"
+  },
+  {
+    "id": 705,
+    "sentence": "We need to sign the contract.",
+    "translation": "ما باید قرارداد را امضا کنیم.",
+    "image": "theme_21",
+    "audio": "audio_705.mp3"
+  },
+  {
+    "id": 706,
+    "sentence": "Let's discuss the budget details.",
+    "translation": "بیا درباره جزئیات بودجه بحث کنیم.",
+    "image": "theme_21",
+    "audio": "audio_706.mp3"
+  },
+  {
+    "id": 707,
+    "sentence": "I appreciate your cooperation.",
+    "translation": "از همکاری شما سپاسگزارم.",
+    "image": "theme_21",
+    "audio": "audio_707.mp3"
+  },
+  {
+    "id": 708,
+    "sentence": "Please confirm your attendance.",
+    "translation": "لطفاً حضور خود را تأیید کنید.",
+    "image": "theme_21",
+    "audio": "audio_708.mp3"
+  },
+  {
+    "id": 709,
+    "sentence": "I want to thank you for opportunity.",
+    "translation": "می‌خواهم از شما بابت این فرصت تشکر کنم.",
+    "image": "theme_21",
+    "audio": "audio_709.mp3"
+  },
+  {
+    "id": 710,
+    "sentence": "Let me introduce our CEO.",
+    "translation": "اجازه دهید مدیرعامل خودمان را معرفی کنم.",
+    "image": "theme_21",
+    "audio": "audio_710.mp3"
+  },
+  {
+    "id": 711,
+    "sentence": "The presentation was very successful.",
+    "translation": "ارائه بسیار موفقیت‌آمیز بود.",
+    "image": "theme_21",
+    "audio": "audio_711.mp3"
+  },
+  {
+    "id": 712,
+    "sentence": "We should schedule a conference call.",
+    "translation": "باید یک تماس کنفرانسی برنامه‌ریزی کنیم.",
+    "image": "theme_21",
+    "audio": "audio_712.mp3"
+  },
+  {
+    "id": 713,
+    "sentence": "I will send the official email.",
+    "translation": "من ایمیل رسمی را ارسال خواهم کرد.",
+    "image": "theme_21",
+    "audio": "audio_713.mp3"
+  },
+  {
+    "id": 714,
+    "sentence": "This is our top priority.",
+    "translation": "این اولویت اصلی ما است.",
+    "image": "theme_21",
+    "audio": "audio_714.mp3"
+  },
+  {
+    "id": 715,
+    "sentence": "What is your company's strategy?",
+    "translation": "استراتژی شرکت شما چیست؟",
+    "image": "theme_21",
+    "audio": "audio_715.mp3"
+  },
+  {
+    "id": 716,
+    "sentence": "We need a detailed project plan.",
+    "translation": "ما به یک طرح پروژه دقیق نیاز داریم.",
+    "image": "theme_21",
+    "audio": "audio_716.mp3"
+  },
+  {
+    "id": 717,
+    "sentence": "Thank you for your valuable feedback.",
+    "translation": "ممنون بابت بازخورد ارزشمندتان.",
+    "image": "theme_21",
+    "audio": "audio_717.mp3"
+  },
+  {
+    "id": 718,
+    "sentence": "Let's finalize the agreement terms.",
+    "translation": "بیا شرایط توافق‌نامه را نهایی کنیم.",
+    "image": "theme_21",
+    "audio": "audio_718.mp3"
+  },
+  {
+    "id": 719,
+    "sentence": "We must increase our productivity.",
+    "translation": "باید بهره‌وری خود را افزایش دهیم.",
+    "image": "theme_21",
+    "audio": "audio_719.mp3"
+  },
+  {
+    "id": 720,
+    "sentence": "The quarterly report is ready.",
+    "translation": "گزارش سه‌ماهه آماده است.",
+    "image": "theme_21",
+    "audio": "audio_720.mp3"
+  },
+  {
+    "id": 721,
+    "sentence": "He represents our company abroad.",
+    "translation": "او نماینده شرکت ما در خارج از کشور است.",
+    "image": "theme_21",
+    "audio": "audio_721.mp3"
+  },
+  {
+    "id": 722,
+    "sentence": "We have to meet the deadline.",
+    "translation": "ما باید مهلت زمان تحویل را رعایت کنیم.",
+    "image": "theme_21",
+    "audio": "audio_722.mp3"
+  },
+  {
+    "id": 723,
+    "sentence": "Please accept our sincere apologies.",
+    "translation": "لطفاً عذرخواهی صمیمانه ما را بپذیرید.",
+    "image": "theme_21",
+    "audio": "audio_723.mp3"
+  },
+  {
+    "id": 724,
+    "sentence": "What are the main objectives?",
+    "translation": "اهداف اصلی چه هستند؟",
+    "image": "theme_21",
+    "audio": "audio_724.mp3"
+  },
+  {
+    "id": 725,
+    "sentence": "We made a profitable deal.",
+    "translation": "ما معامله سودآوری انجام دادیم.",
+    "image": "theme_21",
+    "audio": "audio_725.mp3"
+  },
+  {
+    "id": 726,
+    "sentence": "I will review the proposal.",
+    "translation": "من طرح پیشنهادی را بررسی خواهم کرد.",
+    "image": "theme_21",
+    "audio": "audio_726.mp3"
+  },
+  {
+    "id": 727,
+    "sentence": "She is in charge of marketing.",
+    "translation": "او مسئول بخش بازاریابی است.",
+    "image": "theme_21",
+    "audio": "audio_727.mp3"
+  },
+  {
+    "id": 728,
+    "sentence": "The meeting has been postponed.",
+    "translation": "جلسه به تعویق افتاده است.",
+    "image": "theme_21",
+    "audio": "audio_728.mp3"
+  },
+  {
+    "id": 729,
+    "sentence": "We respect our clients' privacy.",
+    "translation": "ما به حریم خصوصی مشتریان احترام می‌گذاریم.",
+    "image": "theme_21",
+    "audio": "audio_729.mp3"
+  },
+  {
+    "id": 730,
+    "sentence": "Can we arrange a quick call?",
+    "translation": "می‌توانیم یک تماس تلفنی سریع ترتیب دهیم؟",
+    "image": "theme_21",
+    "audio": "audio_730.mp3"
+  },
+  {
+    "id": 731,
+    "sentence": "I need your approval on this.",
+    "translation": "به تایید شما در این مورد نیاز دارم.",
+    "image": "theme_21",
+    "audio": "audio_731.mp3"
+  },
+  {
+    "id": 732,
+    "sentence": "We want to expand our market.",
+    "translation": "ما می‌خواهیم بازار خود را توسعه دهیم.",
+    "image": "theme_21",
+    "audio": "audio_732.mp3"
+  },
+  {
+    "id": 733,
+    "sentence": "This is a confidential matter.",
+    "translation": "این یک موضوع محرمانه است.",
+    "image": "theme_21",
+    "audio": "audio_733.mp3"
+  },
+  {
+    "id": 734,
+    "sentence": "The results exceeded our expectations.",
+    "translation": "نتایج فراتر از انتظار ما بود.",
+    "image": "theme_21",
+    "audio": "audio_734.mp3"
+  },
+  {
+    "id": 735,
+    "sentence": "Thank you for your business advice.",
+    "translation": "ممنون بابت مشاوره تجاری شما.",
+    "image": "theme_21",
+    "audio": "audio_735.mp3"
+  }
+]

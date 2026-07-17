@@ -1,0 +1,6 @@
+{
+  "name": "700 جمله ضروری انگلیسی",
+  "description": "یادگیری ۷۰۰ جمله ضروری انگلیسی با ترجمه فارسی، تلفظ صوتی کاملاً آفلاین و آزمون‌های هوشمند رایگان.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
