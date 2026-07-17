@@ -37,6 +37,22 @@ jobs:
           fi
         # ایجاد فایل .env برای جلوگیری از خطای پلاگین سکرت اندروید
 
+      - name: Decode Release Keystore
+        run: |
+          if [ -f my-release-key.base64 ]; then
+            base64 -d my-release-key.base64 > my-release-key.jks
+            echo "Keystore decoded successfully from base64 file."
+          else
+            echo "my-release-key.base64 not found. Checking GitHub Secrets..."
+            if [ ! -z "${{ secrets.RELEASE_KEY_BASE64 }}" ]; then
+              echo "${{ secrets.RELEASE_KEY_BASE64 }}" | base64 -d > my-release-key.jks
+              echo "Keystore decoded successfully from GitHub Secrets."
+            else
+              echo "Warning: No keystore found! The release build might fail if signing is required."
+            fi
+          fi
+        # بازسازی فایل کلید ریلیز از فایل متنی base64 یا از سکرت‌های گیت‌هاب برای ساین کردن موفقیت‌آمیز برنامه
+
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
